@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_516666c341fee192c07b39863781cdda {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_516666c341fee192c07b39863781cdda" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_516666c341fee192c07b39863781cdda = L.map(
+                "map_516666c341fee192c07b39863781cdda",
+                {
+                    center: [38.179722222, 13.1030555556],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ad42528394e6a5fcf1bbed06c4110f2c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_ad42528394e6a5fcf1bbed06c4110f2c.addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var tile_layer_aa8f44a3588c3ebb0027d9862f197a31 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+            var mini_map_d1458dffb775d2f5cf3a5ce848b6b34a = new L.Control.MiniMap(
+                tile_layer_aa8f44a3588c3ebb0027d9862f197a31,
+                {"autoToggleDisplay": false, "centerFixed": false, "collapsedHeight": 25, "collapsedWidth": 25, "height": 150, "minimized": false, "position": "bottomright", "toggleDisplay": false, "width": 150, "zoomAnimation": false, "zoomLevelOffset": -5}
+            );
+            map_516666c341fee192c07b39863781cdda.addControl(mini_map_d1458dffb775d2f5cf3a5ce848b6b34a);
+        
+    
+            var marker_d4394faa94ca0bb5c7d7fc757a44fb6e = L.marker(
+                [39.2472222222, 9.0561111111],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_7656323d3816653de2612e4860b5363f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e0\u003c/div\u003e"});
+            marker_d4394faa94ca0bb5c7d7fc757a44fb6e.setIcon(div_icon_7656323d3816653de2612e4860b5363f);
+        
+    
+        var popup_e8f04d665f5f0378bae20b945804961b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_353e37077ef14a2540d8adbfd0beff7d = $(`<div id="html_353e37077ef14a2540d8adbfd0beff7d" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676297 Callsign OFF1CO26 Type DEPARTURE LAT 39.2472222222 LON 9.0561111111</div>`)[0];
+                popup_e8f04d665f5f0378bae20b945804961b.setContent(html_353e37077ef14a2540d8adbfd0beff7d);
+            
+        
+
+        marker_d4394faa94ca0bb5c7d7fc757a44fb6e.bindPopup(popup_e8f04d665f5f0378bae20b945804961b)
+        ;
+
+        
+    
+    
+            var circle_marker_09209af51d28c22b8482f7aa028e64a6 = L.circleMarker(
+                [39.2472222222, 9.0561111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_a6bd354870513cf75a222fbf599ff2ff = L.marker(
+                [39.31, 9.1933333333],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_da53ef6b3aaf60519c16aa73835bcc07 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e1\u003c/div\u003e"});
+            marker_a6bd354870513cf75a222fbf599ff2ff.setIcon(div_icon_da53ef6b3aaf60519c16aa73835bcc07);
+        
+    
+        var popup_c7605ee302b22a842dbb31a415e60d78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4c97672170ced1381ef3fef8879894d = $(`<div id="html_a4c97672170ced1381ef3fef8879894d" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676297 Callsign OFF1CO26 Type INGRESS_FLOT_CROSSING LAT 39.31 LON 9.1933333333</div>`)[0];
+                popup_c7605ee302b22a842dbb31a415e60d78.setContent(html_a4c97672170ced1381ef3fef8879894d);
+            
+        
+
+        marker_a6bd354870513cf75a222fbf599ff2ff.bindPopup(popup_c7605ee302b22a842dbb31a415e60d78)
+        ;
+
+        
+    
+    
+            var circle_marker_e56acc6f7bf361865b908297e7699edc = L.circleMarker(
+                [39.31, 9.1933333333],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_d5c8e54fa9dc6ceaca6335aea7a643a8 = L.marker(
+                [36.9666666667, 14.9572222222],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_a696433419e415658861f6cc685cc0e7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e2\u003c/div\u003e"});
+            marker_d5c8e54fa9dc6ceaca6335aea7a643a8.setIcon(div_icon_a696433419e415658861f6cc685cc0e7);
+        
+    
+        var popup_bd30fe75e8742a2fe3b47bb82499528c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2100d9d64b8169a4c71d5702cc79d011 = $(`<div id="html_2100d9d64b8169a4c71d5702cc79d011" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676297 Callsign OFF1CO26 Type GROUND_TARGET LAT 36.9666666667 LON 14.9572222222</div>`)[0];
+                popup_bd30fe75e8742a2fe3b47bb82499528c.setContent(html_2100d9d64b8169a4c71d5702cc79d011);
+            
+        
+
+        marker_d5c8e54fa9dc6ceaca6335aea7a643a8.bindPopup(popup_bd30fe75e8742a2fe3b47bb82499528c)
+        ;
+
+        
+    
+    
+            var circle_marker_beb95410fb0929281edec278019d273e = L.circleMarker(
+                [36.9666666667, 14.9572222222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_24b27781ad52fca4fd616bb64f66ba31 = L.marker(
+                [39.31, 9.1933333333],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_7ea2f2b23bef6491ff0d27ba733a4bcc = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e3\u003c/div\u003e"});
+            marker_24b27781ad52fca4fd616bb64f66ba31.setIcon(div_icon_7ea2f2b23bef6491ff0d27ba733a4bcc);
+        
+    
+        var popup_a4719239ed33a91c3c2cf90167964727 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97bee82f95a78925328b6bf0728a1f9e = $(`<div id="html_97bee82f95a78925328b6bf0728a1f9e" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676297 Callsign OFF1CO26 Type EGRESS_FLOT_CROSSING LAT 39.31 LON 9.1933333333</div>`)[0];
+                popup_a4719239ed33a91c3c2cf90167964727.setContent(html_97bee82f95a78925328b6bf0728a1f9e);
+            
+        
+
+        marker_24b27781ad52fca4fd616bb64f66ba31.bindPopup(popup_a4719239ed33a91c3c2cf90167964727)
+        ;
+
+        
+    
+    
+            var circle_marker_478e310d09a1f7ab9525a9b0c5937318 = L.circleMarker(
+                [39.31, 9.1933333333],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_b53d1877e4113d7647d81b1ef3d45939 = L.marker(
+                [39.2472222222, 9.0561111111],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_f1b27ff2553a66bc5fbb0bddaa642da5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e4\u003c/div\u003e"});
+            marker_b53d1877e4113d7647d81b1ef3d45939.setIcon(div_icon_f1b27ff2553a66bc5fbb0bddaa642da5);
+        
+    
+        var popup_9332c2b69052eb2847024e6bcfd2b28e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c0154633bdea65138a6a3a4ab9b0a6a = $(`<div id="html_8c0154633bdea65138a6a3a4ab9b0a6a" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676297 Callsign OFF1CO26 Type DESTINATION LAT 39.2472222222 LON 9.0561111111</div>`)[0];
+                popup_9332c2b69052eb2847024e6bcfd2b28e.setContent(html_8c0154633bdea65138a6a3a4ab9b0a6a);
+            
+        
+
+        marker_b53d1877e4113d7647d81b1ef3d45939.bindPopup(popup_9332c2b69052eb2847024e6bcfd2b28e)
+        ;
+
+        
+    
+    
+            var circle_marker_6e1f73593f5bc62753ae3db036b1ac22 = L.circleMarker(
+                [39.2472222222, 9.0561111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var poly_line_4810d73bd1089f91af693beca69230ef = L.polyline(
+                [[39.2472222222, 9.0561111111], [39.31, 9.1933333333], [36.9666666667, 14.9572222222], [39.31, 9.1933333333], [39.2472222222, 9.0561111111]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            poly_line_4810d73bd1089f91af693beca69230ef.bindTooltip(
+                `<div>
+                     From departure to arrival
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd8becabc8557aaee5f6236cc8448d3d = L.marker(
+                [39.2472222222, 9.0561111111],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_d1552c2a87539bb213641bb832eaaaa2 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e0\u003c/div\u003e"});
+            marker_cd8becabc8557aaee5f6236cc8448d3d.setIcon(div_icon_d1552c2a87539bb213641bb832eaaaa2);
+        
+    
+        var popup_3a551023071b6a0daac5d325796f47fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c29f4b04bb419fb4e12e5e8cfda7b7c = $(`<div id="html_0c29f4b04bb419fb4e12e5e8cfda7b7c" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676321 Callsign OFF1CO22 Type DEPARTURE LAT 39.2472222222 LON 9.0561111111</div>`)[0];
+                popup_3a551023071b6a0daac5d325796f47fe.setContent(html_0c29f4b04bb419fb4e12e5e8cfda7b7c);
+            
+        
+
+        marker_cd8becabc8557aaee5f6236cc8448d3d.bindPopup(popup_3a551023071b6a0daac5d325796f47fe)
+        ;
+
+        
+    
+    
+            var circle_marker_8653d161f4c764e200543c843f1cf3a3 = L.circleMarker(
+                [39.2472222222, 9.0561111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_ed85c25d9a40a45313a0dd41b6de2f93 = L.marker(
+                [39.31, 9.1933333333],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_309f1035f3c8664c01784ec6e6e08e3f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e1\u003c/div\u003e"});
+            marker_ed85c25d9a40a45313a0dd41b6de2f93.setIcon(div_icon_309f1035f3c8664c01784ec6e6e08e3f);
+        
+    
+        var popup_47f7d5c87dbdc2dc5a5fbb97d0e997bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7f63d0c7e862d010ae06d0129ccb3c7 = $(`<div id="html_e7f63d0c7e862d010ae06d0129ccb3c7" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676321 Callsign OFF1CO22 Type INGRESS_FLOT_CROSSING LAT 39.31 LON 9.1933333333</div>`)[0];
+                popup_47f7d5c87dbdc2dc5a5fbb97d0e997bf.setContent(html_e7f63d0c7e862d010ae06d0129ccb3c7);
+            
+        
+
+        marker_ed85c25d9a40a45313a0dd41b6de2f93.bindPopup(popup_47f7d5c87dbdc2dc5a5fbb97d0e997bf)
+        ;
+
+        
+    
+    
+            var circle_marker_0a458d7dbfef90cf287c589f83b2c008 = L.circleMarker(
+                [39.31, 9.1933333333],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_35a27248f7eec69a164d129f5c540415 = L.marker(
+                [36.9666666667, 14.9572222222],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_555f90498b1b5265d7fb7cd499a948c3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e2\u003c/div\u003e"});
+            marker_35a27248f7eec69a164d129f5c540415.setIcon(div_icon_555f90498b1b5265d7fb7cd499a948c3);
+        
+    
+        var popup_8de5d505500d992e019d3ed02e662422 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f5bed90c4a55f16d404c0043cfadb31 = $(`<div id="html_0f5bed90c4a55f16d404c0043cfadb31" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676321 Callsign OFF1CO22 Type GROUND_TARGET LAT 36.9666666667 LON 14.9572222222</div>`)[0];
+                popup_8de5d505500d992e019d3ed02e662422.setContent(html_0f5bed90c4a55f16d404c0043cfadb31);
+            
+        
+
+        marker_35a27248f7eec69a164d129f5c540415.bindPopup(popup_8de5d505500d992e019d3ed02e662422)
+        ;
+
+        
+    
+    
+            var circle_marker_b71e41c44b688c584a2e557ab8dbac2e = L.circleMarker(
+                [36.9666666667, 14.9572222222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_94da8cebafd8f1402e241959de9e2cbc = L.marker(
+                [39.31, 9.1933333333],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_2081f8cc755b13250af06ce6869bcfb0 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e3\u003c/div\u003e"});
+            marker_94da8cebafd8f1402e241959de9e2cbc.setIcon(div_icon_2081f8cc755b13250af06ce6869bcfb0);
+        
+    
+        var popup_95d13f8db8c399ea12c1d6e760bb645a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11683117f842587234a02118cdb77585 = $(`<div id="html_11683117f842587234a02118cdb77585" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676321 Callsign OFF1CO22 Type EGRESS_FLOT_CROSSING LAT 39.31 LON 9.1933333333</div>`)[0];
+                popup_95d13f8db8c399ea12c1d6e760bb645a.setContent(html_11683117f842587234a02118cdb77585);
+            
+        
+
+        marker_94da8cebafd8f1402e241959de9e2cbc.bindPopup(popup_95d13f8db8c399ea12c1d6e760bb645a)
+        ;
+
+        
+    
+    
+            var circle_marker_014089e0e679a552c31377ab42b1cc95 = L.circleMarker(
+                [39.31, 9.1933333333],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_c81eb2b08a928f1cd931c8209edefe77 = L.marker(
+                [39.2472222222, 9.0561111111],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_ea109308a20c11c6daa7e714a783d673 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e4\u003c/div\u003e"});
+            marker_c81eb2b08a928f1cd931c8209edefe77.setIcon(div_icon_ea109308a20c11c6daa7e714a783d673);
+        
+    
+        var popup_563609acd7a8a7f7615b4791e7f0eb36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2274ced0e566484c27d6b530ae82fae6 = $(`<div id="html_2274ced0e566484c27d6b530ae82fae6" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676321 Callsign OFF1CO22 Type DESTINATION LAT 39.2472222222 LON 9.0561111111</div>`)[0];
+                popup_563609acd7a8a7f7615b4791e7f0eb36.setContent(html_2274ced0e566484c27d6b530ae82fae6);
+            
+        
+
+        marker_c81eb2b08a928f1cd931c8209edefe77.bindPopup(popup_563609acd7a8a7f7615b4791e7f0eb36)
+        ;
+
+        
+    
+    
+            var circle_marker_8a398992a27fe03b97b8690f31f494d1 = L.circleMarker(
+                [39.2472222222, 9.0561111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var poly_line_41cebbc9e7ce15665e455d5ab7225b4d = L.polyline(
+                [[39.2472222222, 9.0561111111], [39.31, 9.1933333333], [36.9666666667, 14.9572222222], [39.31, 9.1933333333], [39.2472222222, 9.0561111111]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            poly_line_41cebbc9e7ce15665e455d5ab7225b4d.bindTooltip(
+                `<div>
+                     From departure to arrival
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6dbe668fa0dca9d5d3cbb5311ef930a9 = L.marker(
+                [39.2472222222, 9.0561111111],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_829bde93ce22760d86f3a05169e47d81 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e0\u003c/div\u003e"});
+            marker_6dbe668fa0dca9d5d3cbb5311ef930a9.setIcon(div_icon_829bde93ce22760d86f3a05169e47d81);
+        
+    
+        var popup_015c9bbf81de5fc7a55d889a64674ef2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67b40277e7b9ccc85accacded70f9d7c = $(`<div id="html_67b40277e7b9ccc85accacded70f9d7c" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676345 Callsign OFF1CO23 Type DEPARTURE LAT 39.2472222222 LON 9.0561111111</div>`)[0];
+                popup_015c9bbf81de5fc7a55d889a64674ef2.setContent(html_67b40277e7b9ccc85accacded70f9d7c);
+            
+        
+
+        marker_6dbe668fa0dca9d5d3cbb5311ef930a9.bindPopup(popup_015c9bbf81de5fc7a55d889a64674ef2)
+        ;
+
+        
+    
+    
+            var circle_marker_f23a953ed791bd1d5db8777ecaf56a62 = L.circleMarker(
+                [39.2472222222, 9.0561111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_b93b7ebd9bb368331e67a77bbac617d5 = L.marker(
+                [39.31, 9.1933333333],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_1eff4af029d0baea7898b597247a5e80 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e1\u003c/div\u003e"});
+            marker_b93b7ebd9bb368331e67a77bbac617d5.setIcon(div_icon_1eff4af029d0baea7898b597247a5e80);
+        
+    
+        var popup_5945966e2f95d4cc4c075cd3f6764093 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cf201fac7e38fc0d1770fd5d33ba7b2 = $(`<div id="html_6cf201fac7e38fc0d1770fd5d33ba7b2" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676345 Callsign OFF1CO23 Type INGRESS_FLOT_CROSSING LAT 39.31 LON 9.1933333333</div>`)[0];
+                popup_5945966e2f95d4cc4c075cd3f6764093.setContent(html_6cf201fac7e38fc0d1770fd5d33ba7b2);
+            
+        
+
+        marker_b93b7ebd9bb368331e67a77bbac617d5.bindPopup(popup_5945966e2f95d4cc4c075cd3f6764093)
+        ;
+
+        
+    
+    
+            var circle_marker_14721bce6aaa2399f5f753669df3be18 = L.circleMarker(
+                [39.31, 9.1933333333],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_585d0953b23244fbf8a1744376992971 = L.marker(
+                [36.9666666667, 14.9572222222],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_89e9199d2fd39dfb87e740f4486cb2b7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e2\u003c/div\u003e"});
+            marker_585d0953b23244fbf8a1744376992971.setIcon(div_icon_89e9199d2fd39dfb87e740f4486cb2b7);
+        
+    
+        var popup_982210065a8496e6362d3511d7b9728e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2cc741f52f84f259cea402620eefbf6 = $(`<div id="html_d2cc741f52f84f259cea402620eefbf6" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676345 Callsign OFF1CO23 Type GROUND_TARGET LAT 36.9666666667 LON 14.9572222222</div>`)[0];
+                popup_982210065a8496e6362d3511d7b9728e.setContent(html_d2cc741f52f84f259cea402620eefbf6);
+            
+        
+
+        marker_585d0953b23244fbf8a1744376992971.bindPopup(popup_982210065a8496e6362d3511d7b9728e)
+        ;
+
+        
+    
+    
+            var circle_marker_9399d87b6b7be26839695d280739dbf1 = L.circleMarker(
+                [36.9666666667, 14.9572222222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_78ce9e5cdfef51288648fc5aa571ef28 = L.marker(
+                [39.31, 9.1933333333],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_eb1cee49327c5f5ee205c31fd5936a79 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e3\u003c/div\u003e"});
+            marker_78ce9e5cdfef51288648fc5aa571ef28.setIcon(div_icon_eb1cee49327c5f5ee205c31fd5936a79);
+        
+    
+        var popup_3720fad9619827179ac456ca513ecdfe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4318648b88c0897f437c78898ee156e = $(`<div id="html_f4318648b88c0897f437c78898ee156e" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676345 Callsign OFF1CO23 Type EGRESS_FLOT_CROSSING LAT 39.31 LON 9.1933333333</div>`)[0];
+                popup_3720fad9619827179ac456ca513ecdfe.setContent(html_f4318648b88c0897f437c78898ee156e);
+            
+        
+
+        marker_78ce9e5cdfef51288648fc5aa571ef28.bindPopup(popup_3720fad9619827179ac456ca513ecdfe)
+        ;
+
+        
+    
+    
+            var circle_marker_ae1af29df206d18cd328eddbe54880a3 = L.circleMarker(
+                [39.31, 9.1933333333],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_517eb3798c6f5a392aaf27472520bdbb = L.marker(
+                [39.2472222222, 9.0561111111],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_b3d8df00fc5edf90dcd6935b9e1be071 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e4\u003c/div\u003e"});
+            marker_517eb3798c6f5a392aaf27472520bdbb.setIcon(div_icon_b3d8df00fc5edf90dcd6935b9e1be071);
+        
+    
+        var popup_498e7416d3c3c6f0d78b41e18fa178c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b79a0b34cfeccf12ef2eefc9911d8a91 = $(`<div id="html_b79a0b34cfeccf12ef2eefc9911d8a91" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676345 Callsign OFF1CO23 Type DESTINATION LAT 39.2472222222 LON 9.0561111111</div>`)[0];
+                popup_498e7416d3c3c6f0d78b41e18fa178c3.setContent(html_b79a0b34cfeccf12ef2eefc9911d8a91);
+            
+        
+
+        marker_517eb3798c6f5a392aaf27472520bdbb.bindPopup(popup_498e7416d3c3c6f0d78b41e18fa178c3)
+        ;
+
+        
+    
+    
+            var circle_marker_a45c1a9bfdbdfa9987e5c4e13abd2967 = L.circleMarker(
+                [39.2472222222, 9.0561111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var poly_line_076a7fd0f3f6aa53d975c42fe2eb857f = L.polyline(
+                [[39.2472222222, 9.0561111111], [39.31, 9.1933333333], [36.9666666667, 14.9572222222], [39.31, 9.1933333333], [39.2472222222, 9.0561111111]],
+                {"bubblingMouseEvents": true, "color": "lightgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            poly_line_076a7fd0f3f6aa53d975c42fe2eb857f.bindTooltip(
+                `<div>
+                     From departure to arrival
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f58854d28dc16820df854e66577a676c = L.marker(
+                [39.2472222222, 9.0561111111],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_335e50924be5b90121acd6e81e614096 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e0\u003c/div\u003e"});
+            marker_f58854d28dc16820df854e66577a676c.setIcon(div_icon_335e50924be5b90121acd6e81e614096);
+        
+    
+        var popup_e4f130d0dd282f3d8c26f7a11a2e858e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4936535b7ae91bff74e70565f1352d2 = $(`<div id="html_b4936535b7ae91bff74e70565f1352d2" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676369 Callsign OFF1CO24 Type DEPARTURE LAT 39.2472222222 LON 9.0561111111</div>`)[0];
+                popup_e4f130d0dd282f3d8c26f7a11a2e858e.setContent(html_b4936535b7ae91bff74e70565f1352d2);
+            
+        
+
+        marker_f58854d28dc16820df854e66577a676c.bindPopup(popup_e4f130d0dd282f3d8c26f7a11a2e858e)
+        ;
+
+        
+    
+    
+            var circle_marker_9443d973c41b0327c962265712136c46 = L.circleMarker(
+                [39.2472222222, 9.0561111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_09f7ed0ac2209ed87e1d35f857b8553e = L.marker(
+                [39.31, 9.1933333333],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_94e4298ef8745dcabd5204049f134621 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e1\u003c/div\u003e"});
+            marker_09f7ed0ac2209ed87e1d35f857b8553e.setIcon(div_icon_94e4298ef8745dcabd5204049f134621);
+        
+    
+        var popup_68469ecbf1decefca5255ac084885ec6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a4f88316f6c6768158ef8a8d525b9b1 = $(`<div id="html_3a4f88316f6c6768158ef8a8d525b9b1" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676369 Callsign OFF1CO24 Type INGRESS_FLOT_CROSSING LAT 39.31 LON 9.1933333333</div>`)[0];
+                popup_68469ecbf1decefca5255ac084885ec6.setContent(html_3a4f88316f6c6768158ef8a8d525b9b1);
+            
+        
+
+        marker_09f7ed0ac2209ed87e1d35f857b8553e.bindPopup(popup_68469ecbf1decefca5255ac084885ec6)
+        ;
+
+        
+    
+    
+            var circle_marker_09c635ad93d8364bcaa30ce609e384f4 = L.circleMarker(
+                [39.31, 9.1933333333],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_4ed980933a3cba97a79cad08fa640f51 = L.marker(
+                [36.9666666667, 14.9572222222],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_ba96b63e8bf62f420b55ac29802a4353 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e2\u003c/div\u003e"});
+            marker_4ed980933a3cba97a79cad08fa640f51.setIcon(div_icon_ba96b63e8bf62f420b55ac29802a4353);
+        
+    
+        var popup_79b581a96c411246443a391d7c290168 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bd9673d51ae1a93c399725e32c8e237 = $(`<div id="html_5bd9673d51ae1a93c399725e32c8e237" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676369 Callsign OFF1CO24 Type GROUND_TARGET LAT 36.9666666667 LON 14.9572222222</div>`)[0];
+                popup_79b581a96c411246443a391d7c290168.setContent(html_5bd9673d51ae1a93c399725e32c8e237);
+            
+        
+
+        marker_4ed980933a3cba97a79cad08fa640f51.bindPopup(popup_79b581a96c411246443a391d7c290168)
+        ;
+
+        
+    
+    
+            var circle_marker_48228659a150481bbde4a433e94712f4 = L.circleMarker(
+                [36.9666666667, 14.9572222222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_2bf2cf5352740a7f7a950a3bf6bf345e = L.marker(
+                [39.31, 9.1933333333],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_015bddc03f6252e835c2acda54044ffa = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e3\u003c/div\u003e"});
+            marker_2bf2cf5352740a7f7a950a3bf6bf345e.setIcon(div_icon_015bddc03f6252e835c2acda54044ffa);
+        
+    
+        var popup_71635ee743d61877248342f7ce27768d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_977bc9ca771ab278765692a4692449f8 = $(`<div id="html_977bc9ca771ab278765692a4692449f8" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676369 Callsign OFF1CO24 Type EGRESS_FLOT_CROSSING LAT 39.31 LON 9.1933333333</div>`)[0];
+                popup_71635ee743d61877248342f7ce27768d.setContent(html_977bc9ca771ab278765692a4692449f8);
+            
+        
+
+        marker_2bf2cf5352740a7f7a950a3bf6bf345e.bindPopup(popup_71635ee743d61877248342f7ce27768d)
+        ;
+
+        
+    
+    
+            var circle_marker_9600746c3bc7019b8cb78cc0656fa3a0 = L.circleMarker(
+                [39.31, 9.1933333333],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_1b6b3427f53ce18afb2f4b8d4d9126aa = L.marker(
+                [39.2472222222, 9.0561111111],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_dee47e92182a0a9b765ffafa9b20693f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e4\u003c/div\u003e"});
+            marker_1b6b3427f53ce18afb2f4b8d4d9126aa.setIcon(div_icon_dee47e92182a0a9b765ffafa9b20693f);
+        
+    
+        var popup_01283d60730f998f18da9fd68cc9ae10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26acb9f3122bc57ec8baf4e3f44907c6 = $(`<div id="html_26acb9f3122bc57ec8baf4e3f44907c6" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676369 Callsign OFF1CO24 Type DESTINATION LAT 39.2472222222 LON 9.0561111111</div>`)[0];
+                popup_01283d60730f998f18da9fd68cc9ae10.setContent(html_26acb9f3122bc57ec8baf4e3f44907c6);
+            
+        
+
+        marker_1b6b3427f53ce18afb2f4b8d4d9126aa.bindPopup(popup_01283d60730f998f18da9fd68cc9ae10)
+        ;
+
+        
+    
+    
+            var circle_marker_08b206b560888f474f120748f5f52bc2 = L.circleMarker(
+                [39.2472222222, 9.0561111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var poly_line_2878b86304d6187926054a2bfac83f75 = L.polyline(
+                [[39.2472222222, 9.0561111111], [39.31, 9.1933333333], [36.9666666667, 14.9572222222], [39.31, 9.1933333333], [39.2472222222, 9.0561111111]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            poly_line_2878b86304d6187926054a2bfac83f75.bindTooltip(
+                `<div>
+                     From departure to arrival
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f42e22d629ecee8ce94fc78702e76ee1 = L.marker(
+                [39.2472222222, 9.0561111111],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_f9a675e01ea12128e1a15270e7592ced = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e0\u003c/div\u003e"});
+            marker_f42e22d629ecee8ce94fc78702e76ee1.setIcon(div_icon_f9a675e01ea12128e1a15270e7592ced);
+        
+    
+        var popup_f0ecf328ceb5de75d2d29875ad052dde = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3b97c10b8b2a495c1e829331afadb7e = $(`<div id="html_e3b97c10b8b2a495c1e829331afadb7e" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676393 Callsign OFF1CO25 Type DEPARTURE LAT 39.2472222222 LON 9.0561111111</div>`)[0];
+                popup_f0ecf328ceb5de75d2d29875ad052dde.setContent(html_e3b97c10b8b2a495c1e829331afadb7e);
+            
+        
+
+        marker_f42e22d629ecee8ce94fc78702e76ee1.bindPopup(popup_f0ecf328ceb5de75d2d29875ad052dde)
+        ;
+
+        
+    
+    
+            var circle_marker_00c5b5701c90f8f5701853179bb6b320 = L.circleMarker(
+                [39.2472222222, 9.0561111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_b2059538778b41785d13eab5ef08c9a4 = L.marker(
+                [39.31, 9.1933333333],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_083b9eb0cae21ffd45f238e824dcd5dd = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e1\u003c/div\u003e"});
+            marker_b2059538778b41785d13eab5ef08c9a4.setIcon(div_icon_083b9eb0cae21ffd45f238e824dcd5dd);
+        
+    
+        var popup_1b8ebaf0a7c09df985a44b019aa4716d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09d10751606b54c7ad5791275fbf8f5b = $(`<div id="html_09d10751606b54c7ad5791275fbf8f5b" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676393 Callsign OFF1CO25 Type INGRESS_FLOT_CROSSING LAT 39.31 LON 9.1933333333</div>`)[0];
+                popup_1b8ebaf0a7c09df985a44b019aa4716d.setContent(html_09d10751606b54c7ad5791275fbf8f5b);
+            
+        
+
+        marker_b2059538778b41785d13eab5ef08c9a4.bindPopup(popup_1b8ebaf0a7c09df985a44b019aa4716d)
+        ;
+
+        
+    
+    
+            var circle_marker_feb51acf15611fcd96f93c54f822a3b5 = L.circleMarker(
+                [39.31, 9.1933333333],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_006bf3b4de15ef20a88f1591dc0d4441 = L.marker(
+                [36.9666666667, 14.9572222222],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_86a6cba588289f316778c2fe4e027119 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e2\u003c/div\u003e"});
+            marker_006bf3b4de15ef20a88f1591dc0d4441.setIcon(div_icon_86a6cba588289f316778c2fe4e027119);
+        
+    
+        var popup_41351bdb8b953452149d0f061cb5b142 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_327cb6867a36102b12beb70c47f7c05b = $(`<div id="html_327cb6867a36102b12beb70c47f7c05b" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676393 Callsign OFF1CO25 Type GROUND_TARGET LAT 36.9666666667 LON 14.9572222222</div>`)[0];
+                popup_41351bdb8b953452149d0f061cb5b142.setContent(html_327cb6867a36102b12beb70c47f7c05b);
+            
+        
+
+        marker_006bf3b4de15ef20a88f1591dc0d4441.bindPopup(popup_41351bdb8b953452149d0f061cb5b142)
+        ;
+
+        
+    
+    
+            var circle_marker_1f3a3b0cda1b9177d37ecc1be71cbfa6 = L.circleMarker(
+                [36.9666666667, 14.9572222222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_42e5a93f82db288924485871de10baf3 = L.marker(
+                [39.31, 9.1933333333],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_acf615e496a291433284e1356a89caf9 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e3\u003c/div\u003e"});
+            marker_42e5a93f82db288924485871de10baf3.setIcon(div_icon_acf615e496a291433284e1356a89caf9);
+        
+    
+        var popup_f4b0f809ee6dafdf2bc601f85a771b4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32fe51ddb6f4ebd9951f271cc3dc3443 = $(`<div id="html_32fe51ddb6f4ebd9951f271cc3dc3443" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676393 Callsign OFF1CO25 Type EGRESS_FLOT_CROSSING LAT 39.31 LON 9.1933333333</div>`)[0];
+                popup_f4b0f809ee6dafdf2bc601f85a771b4b.setContent(html_32fe51ddb6f4ebd9951f271cc3dc3443);
+            
+        
+
+        marker_42e5a93f82db288924485871de10baf3.bindPopup(popup_f4b0f809ee6dafdf2bc601f85a771b4b)
+        ;
+
+        
+    
+    
+            var circle_marker_4c885a80aa515f06b26a14da7ff244c8 = L.circleMarker(
+                [39.31, 9.1933333333],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_e71979b02789f5b8a874bcf9a20a16a6 = L.marker(
+                [39.2472222222, 9.0561111111],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_6d92a0a771757129c37b75dcb1086cd4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e4\u003c/div\u003e"});
+            marker_e71979b02789f5b8a874bcf9a20a16a6.setIcon(div_icon_6d92a0a771757129c37b75dcb1086cd4);
+        
+    
+        var popup_fcd825ef5e354da28a32bbe93b7627e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1af8a3d912baec9bbf309cf170e234f5 = $(`<div id="html_1af8a3d912baec9bbf309cf170e234f5" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676393 Callsign OFF1CO25 Type DESTINATION LAT 39.2472222222 LON 9.0561111111</div>`)[0];
+                popup_fcd825ef5e354da28a32bbe93b7627e3.setContent(html_1af8a3d912baec9bbf309cf170e234f5);
+            
+        
+
+        marker_e71979b02789f5b8a874bcf9a20a16a6.bindPopup(popup_fcd825ef5e354da28a32bbe93b7627e3)
+        ;
+
+        
+    
+    
+            var circle_marker_71124b87ee7c32c0ffd9518f4fbb5ed0 = L.circleMarker(
+                [39.2472222222, 9.0561111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var poly_line_555913284b027389b598e472f2ff57f8 = L.polyline(
+                [[39.2472222222, 9.0561111111], [39.31, 9.1933333333], [36.9666666667, 14.9572222222], [39.31, 9.1933333333], [39.2472222222, 9.0561111111]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            poly_line_555913284b027389b598e472f2ff57f8.bindTooltip(
+                `<div>
+                     From departure to arrival
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1bbc82eae2dfb9e0e4148a327006b113 = L.marker(
+                [39.2472222222, 9.0561111111],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_6f4726dfbdbf8fd4c72b85e6835f50da = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e0\u003c/div\u003e"});
+            marker_1bbc82eae2dfb9e0e4148a327006b113.setIcon(div_icon_6f4726dfbdbf8fd4c72b85e6835f50da);
+        
+    
+        var popup_15210f822f2e29fb112975dfa455c83b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d54fbad44f6d03606d08bf407f7ddad = $(`<div id="html_5d54fbad44f6d03606d08bf407f7ddad" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676417 Callsign OFF1CO21 Type DEPARTURE LAT 39.2472222222 LON 9.0561111111</div>`)[0];
+                popup_15210f822f2e29fb112975dfa455c83b.setContent(html_5d54fbad44f6d03606d08bf407f7ddad);
+            
+        
+
+        marker_1bbc82eae2dfb9e0e4148a327006b113.bindPopup(popup_15210f822f2e29fb112975dfa455c83b)
+        ;
+
+        
+    
+    
+            var circle_marker_36ed81170e0b4acb1c7fa090cc62a5ff = L.circleMarker(
+                [39.2472222222, 9.0561111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_d776b61d41a81e7c683aed771c30aca6 = L.marker(
+                [39.31, 9.1933333333],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_bab53f54e10aa7417267d91856d41c86 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e1\u003c/div\u003e"});
+            marker_d776b61d41a81e7c683aed771c30aca6.setIcon(div_icon_bab53f54e10aa7417267d91856d41c86);
+        
+    
+        var popup_710fdfd89d802fb4e7a45242d96153e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9443eb390283c789c1128ed728aa327 = $(`<div id="html_a9443eb390283c789c1128ed728aa327" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676417 Callsign OFF1CO21 Type INGRESS_FLOT_CROSSING LAT 39.31 LON 9.1933333333</div>`)[0];
+                popup_710fdfd89d802fb4e7a45242d96153e6.setContent(html_a9443eb390283c789c1128ed728aa327);
+            
+        
+
+        marker_d776b61d41a81e7c683aed771c30aca6.bindPopup(popup_710fdfd89d802fb4e7a45242d96153e6)
+        ;
+
+        
+    
+    
+            var circle_marker_5f845f8553733f43fc1c18bd5b513c6b = L.circleMarker(
+                [39.31, 9.1933333333],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_4e33f59f07e7aa2e8710ac0596a75e59 = L.marker(
+                [36.9666666667, 14.9572222222],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_83517ae86b0cd9688c977af8351443c3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e2\u003c/div\u003e"});
+            marker_4e33f59f07e7aa2e8710ac0596a75e59.setIcon(div_icon_83517ae86b0cd9688c977af8351443c3);
+        
+    
+        var popup_277ca590d1523334d45c3811b68dde5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b834ae648247678f9e1e9b756c5b9b0c = $(`<div id="html_b834ae648247678f9e1e9b756c5b9b0c" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676417 Callsign OFF1CO21 Type GROUND_TARGET LAT 36.9666666667 LON 14.9572222222</div>`)[0];
+                popup_277ca590d1523334d45c3811b68dde5f.setContent(html_b834ae648247678f9e1e9b756c5b9b0c);
+            
+        
+
+        marker_4e33f59f07e7aa2e8710ac0596a75e59.bindPopup(popup_277ca590d1523334d45c3811b68dde5f)
+        ;
+
+        
+    
+    
+            var circle_marker_9ec771a6269dc1a8adc6efb51e346456 = L.circleMarker(
+                [36.9666666667, 14.9572222222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_4130df7ea62c2ad1ef40fbbb9a9f84ac = L.marker(
+                [39.31, 9.1933333333],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_efc273054a5c19854a3600fe5c9dfb34 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e3\u003c/div\u003e"});
+            marker_4130df7ea62c2ad1ef40fbbb9a9f84ac.setIcon(div_icon_efc273054a5c19854a3600fe5c9dfb34);
+        
+    
+        var popup_5e19ad3cb91d467f0659bca786932146 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_059d28744ceb12eff9748adff128221e = $(`<div id="html_059d28744ceb12eff9748adff128221e" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676417 Callsign OFF1CO21 Type EGRESS_FLOT_CROSSING LAT 39.31 LON 9.1933333333</div>`)[0];
+                popup_5e19ad3cb91d467f0659bca786932146.setContent(html_059d28744ceb12eff9748adff128221e);
+            
+        
+
+        marker_4130df7ea62c2ad1ef40fbbb9a9f84ac.bindPopup(popup_5e19ad3cb91d467f0659bca786932146)
+        ;
+
+        
+    
+    
+            var circle_marker_e67da80138863bf4e076c81749f42c39 = L.circleMarker(
+                [39.31, 9.1933333333],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var marker_01f98d331288fc46b9470ecbd6c0c7b3 = L.marker(
+                [39.2472222222, 9.0561111111],
+                {}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var div_icon_03a90077b56c409e94152f946843a026 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e4\u003c/div\u003e"});
+            marker_01f98d331288fc46b9470ecbd6c0c7b3.setIcon(div_icon_03a90077b56c409e94152f946843a026);
+        
+    
+        var popup_174af20c347828f1d907c4364276b59d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d19c2987cd4270c4e0425712f29af50e = $(`<div id="html_d19c2987cd4270c4e0425712f29af50e" style="width: 100.0%; height: 100.0%;">Air Mission ID 1759676417 Callsign OFF1CO21 Type DESTINATION LAT 39.2472222222 LON 9.0561111111</div>`)[0];
+                popup_174af20c347828f1d907c4364276b59d.setContent(html_d19c2987cd4270c4e0425712f29af50e);
+            
+        
+
+        marker_01f98d331288fc46b9470ecbd6c0c7b3.bindPopup(popup_174af20c347828f1d907c4364276b59d)
+        ;
+
+        
+    
+    
+            var circle_marker_9c68bf1888f5e214900a8e100a6d9d98 = L.circleMarker(
+                [39.2472222222, 9.0561111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            var poly_line_73fc43e82a20d1cdee2c2b9298b80493 = L.polyline(
+                [[39.2472222222, 9.0561111111], [39.31, 9.1933333333], [36.9666666667, 14.9572222222], [39.31, 9.1933333333], [39.2472222222, 9.0561111111]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_516666c341fee192c07b39863781cdda);
+        
+    
+            poly_line_73fc43e82a20d1cdee2c2b9298b80493.bindTooltip(
+                `<div>
+                     From departure to arrival
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

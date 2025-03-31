@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bcb32c8c29df3967b5dca8a0da915b54 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bcb32c8c29df3967b5dca8a0da915b54" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bcb32c8c29df3967b5dca8a0da915b54 = L.map(
+                "map_bcb32c8c29df3967b5dca8a0da915b54",
+                {
+                    center: [38.179722222, 13.1030555556],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_11f99b23ae979484980bd949d622fd5b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_11f99b23ae979484980bd949d622fd5b.addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var marker_5d48063e9dd7f0e46c5de4b303c54f3c = L.marker(
+                [40.6311111111, 8.2886111111],
+                {}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var div_icon_a140c2172c8f3baa025fee82bab8ba84 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e0\u003c/div\u003e"});
+            marker_5d48063e9dd7f0e46c5de4b303c54f3c.setIcon(div_icon_a140c2172c8f3baa025fee82bab8ba84);
+        
+    
+        var popup_a7987c5aed63d96de8ac888f1d26e66f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5662e60b4728cb8efdb44c79f6e8b62 = $(`<div id="html_e5662e60b4728cb8efdb44c79f6e8b62" style="width: 100.0%; height: 100.0%;">Callsign NATO13Air Mission ID 1759676678 Type DEPARTURE LAT 40.6311111111 LON 8.2886111111</div>`)[0];
+                popup_a7987c5aed63d96de8ac888f1d26e66f.setContent(html_e5662e60b4728cb8efdb44c79f6e8b62);
+            
+        
+
+        marker_5d48063e9dd7f0e46c5de4b303c54f3c.bindPopup(popup_a7987c5aed63d96de8ac888f1d26e66f)
+        ;
+
+        
+    
+    
+            var circle_marker_5d30babf0eca22d4415dc12825c31165 = L.circleMarker(
+                [40.6311111111, 8.2886111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var marker_777c3403de0129d92a2b33e2cd17b0df = L.marker(
+                [40.4876608377, 8.2500977038],
+                {}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var div_icon_82834a34415b83a88c6cc733d76bd705 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e1\u003c/div\u003e"});
+            marker_777c3403de0129d92a2b33e2cd17b0df.setIcon(div_icon_82834a34415b83a88c6cc733d76bd705);
+        
+    
+        var popup_da1a996d0a7f19a0a839b085fbe4dd39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_079fc0d90180f80d6d897d20ed83168e = $(`<div id="html_079fc0d90180f80d6d897d20ed83168e" style="width: 100.0%; height: 100.0%;">Callsign NATO13Air Mission ID 1759676678 Type ROUTE_SEGMENT LAT 40.4876608377 LON 8.2500977038</div>`)[0];
+                popup_da1a996d0a7f19a0a839b085fbe4dd39.setContent(html_079fc0d90180f80d6d897d20ed83168e);
+            
+        
+
+        marker_777c3403de0129d92a2b33e2cd17b0df.bindPopup(popup_da1a996d0a7f19a0a839b085fbe4dd39)
+        ;
+
+        
+    
+    
+            var circle_marker_7235f972faa6898efdd4a4499f56d328 = L.circleMarker(
+                [40.4876608377, 8.2500977038],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var marker_ebcc6bb7f45d45f3bdf177c7175128f3 = L.marker(
+                [39.2232476163, 9.028006244],
+                {}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var div_icon_108ef2bed86849e892d3df67b1a01ecb = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e2\u003c/div\u003e"});
+            marker_ebcc6bb7f45d45f3bdf177c7175128f3.setIcon(div_icon_108ef2bed86849e892d3df67b1a01ecb);
+        
+    
+        var popup_8e950597575ecbf5d244583ca7cd2d0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ef52ccaee079594454e56a6ed75e95a = $(`<div id="html_2ef52ccaee079594454e56a6ed75e95a" style="width: 100.0%; height: 100.0%;">Callsign NATO13Air Mission ID 1759676678 Type ROUTE_SEGMENT LAT 39.2232476163 LON 9.028006244</div>`)[0];
+                popup_8e950597575ecbf5d244583ca7cd2d0e.setContent(html_2ef52ccaee079594454e56a6ed75e95a);
+            
+        
+
+        marker_ebcc6bb7f45d45f3bdf177c7175128f3.bindPopup(popup_8e950597575ecbf5d244583ca7cd2d0e)
+        ;
+
+        
+    
+    
+            var circle_marker_2d8fb785cd3bfe8d0c3054e2738778e0 = L.circleMarker(
+                [39.2232476163, 9.028006244],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var marker_1d337f0a759790f5b450912adee780fe = L.marker(
+                [38.7655283475, 10.105882232],
+                {}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var div_icon_c5bd51181d1ca3200806a3671097fc1a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e3\u003c/div\u003e"});
+            marker_1d337f0a759790f5b450912adee780fe.setIcon(div_icon_c5bd51181d1ca3200806a3671097fc1a);
+        
+    
+        var popup_770bb046cf0cc37771584d2320c2b05a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4878fc634e3f3fd2b13ff19ab123677 = $(`<div id="html_b4878fc634e3f3fd2b13ff19ab123677" style="width: 100.0%; height: 100.0%;">Callsign NATO13Air Mission ID 1759676678 Type ROUTE_AREA LAT 38.7655283475 LON 10.105882232</div>`)[0];
+                popup_770bb046cf0cc37771584d2320c2b05a.setContent(html_b4878fc634e3f3fd2b13ff19ab123677);
+            
+        
+
+        marker_1d337f0a759790f5b450912adee780fe.bindPopup(popup_770bb046cf0cc37771584d2320c2b05a)
+        ;
+
+        
+    
+    
+            var circle_marker_9196b287f61e90e15aab55e6317631a5 = L.circleMarker(
+                [38.7655283475, 10.105882232],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var marker_9c18fa7ba5520ff15ddbd0ff0177e55b = L.marker(
+                [39.2232476163, 9.028006244],
+                {}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var div_icon_2f1633ed297f5e3ba2084e08ba0fb3a3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e4\u003c/div\u003e"});
+            marker_9c18fa7ba5520ff15ddbd0ff0177e55b.setIcon(div_icon_2f1633ed297f5e3ba2084e08ba0fb3a3);
+        
+    
+        var popup_562c86e1a86c37e0c13451f4fe41afe2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f66277ad53b43ed9c6d23ad1c72da072 = $(`<div id="html_f66277ad53b43ed9c6d23ad1c72da072" style="width: 100.0%; height: 100.0%;">Callsign NATO13Air Mission ID 1759676678 Type ROUTE_SEGMENT LAT 39.2232476163 LON 9.028006244</div>`)[0];
+                popup_562c86e1a86c37e0c13451f4fe41afe2.setContent(html_f66277ad53b43ed9c6d23ad1c72da072);
+            
+        
+
+        marker_9c18fa7ba5520ff15ddbd0ff0177e55b.bindPopup(popup_562c86e1a86c37e0c13451f4fe41afe2)
+        ;
+
+        
+    
+    
+            var circle_marker_65ed27a2134a570498eca308d6b0b007 = L.circleMarker(
+                [39.2232476163, 9.028006244],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var marker_5f243e1723ce3daefb39cc3ce5679533 = L.marker(
+                [40.4876608377, 8.2500977038],
+                {}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var div_icon_d3369a12c4feb4328ae346279086984f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e5\u003c/div\u003e"});
+            marker_5f243e1723ce3daefb39cc3ce5679533.setIcon(div_icon_d3369a12c4feb4328ae346279086984f);
+        
+    
+        var popup_31a6f6812a72e525d8299e2435391681 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2dcac8f7a2196941190a6de276ca7bef = $(`<div id="html_2dcac8f7a2196941190a6de276ca7bef" style="width: 100.0%; height: 100.0%;">Callsign NATO13Air Mission ID 1759676678 Type ROUTE_SEGMENT LAT 40.4876608377 LON 8.2500977038</div>`)[0];
+                popup_31a6f6812a72e525d8299e2435391681.setContent(html_2dcac8f7a2196941190a6de276ca7bef);
+            
+        
+
+        marker_5f243e1723ce3daefb39cc3ce5679533.bindPopup(popup_31a6f6812a72e525d8299e2435391681)
+        ;
+
+        
+    
+    
+            var circle_marker_7ba2e55e877898401f43b1d50c41bd16 = L.circleMarker(
+                [40.4876608377, 8.2500977038],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var marker_0d568a18320d25086be8f7e248dff402 = L.marker(
+                [40.6311111111, 8.2886111111],
+                {}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var div_icon_37b1a2c7d6264dee2070656729adedb0 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e6\u003c/div\u003e"});
+            marker_0d568a18320d25086be8f7e248dff402.setIcon(div_icon_37b1a2c7d6264dee2070656729adedb0);
+        
+    
+        var popup_d7c88698138f32c1046172a8b6b2790b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65247441bbfe9ac936bb8fa3c7391585 = $(`<div id="html_65247441bbfe9ac936bb8fa3c7391585" style="width: 100.0%; height: 100.0%;">Callsign NATO13Air Mission ID 1759676678 Type DESTINATION LAT 40.6311111111 LON 8.2886111111</div>`)[0];
+                popup_d7c88698138f32c1046172a8b6b2790b.setContent(html_65247441bbfe9ac936bb8fa3c7391585);
+            
+        
+
+        marker_0d568a18320d25086be8f7e248dff402.bindPopup(popup_d7c88698138f32c1046172a8b6b2790b)
+        ;
+
+        
+    
+    
+            var circle_marker_25c44159f5474150c7da0972f160d771 = L.circleMarker(
+                [40.6311111111, 8.2886111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var poly_line_fe133405bb211381edb68e4aadd398f7 = L.polyline(
+                [[40.6311111111, 8.2886111111], [40.4876608377, 8.2500977038], [39.2232476163, 9.028006244], [38.7655283475, 10.105882232], [39.2232476163, 9.028006244], [40.4876608377, 8.2500977038], [40.6311111111, 8.2886111111]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            poly_line_fe133405bb211381edb68e4aadd398f7.bindTooltip(
+                `<div>
+                     From departure to arrival
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82bcde5f5d36ee1c7f25d6d53b00f2d0 = L.marker(
+                [40.6311111111, 8.2886111111],
+                {}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var div_icon_d4546844a9b07f0cc8bba9ed8332e10f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e0\u003c/div\u003e"});
+            marker_82bcde5f5d36ee1c7f25d6d53b00f2d0.setIcon(div_icon_d4546844a9b07f0cc8bba9ed8332e10f);
+        
+    
+        var popup_96e580f173e90a499f2b9451a6fed8ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a848e0c32cee8e9d957545a81ab5fb3 = $(`<div id="html_4a848e0c32cee8e9d957545a81ab5fb3" style="width: 100.0%; height: 100.0%;">Callsign NATO12Air Mission ID 1759676714 Type DEPARTURE LAT 40.6311111111 LON 8.2886111111</div>`)[0];
+                popup_96e580f173e90a499f2b9451a6fed8ac.setContent(html_4a848e0c32cee8e9d957545a81ab5fb3);
+            
+        
+
+        marker_82bcde5f5d36ee1c7f25d6d53b00f2d0.bindPopup(popup_96e580f173e90a499f2b9451a6fed8ac)
+        ;
+
+        
+    
+    
+            var circle_marker_09db20a35ad7bf6c00aa5a048ae0c3dd = L.circleMarker(
+                [40.6311111111, 8.2886111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var marker_d14458348094ff187c7227c2b7a48881 = L.marker(
+                [40.7522683704, 8.3252065352],
+                {}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var div_icon_536053fb0a7a1cb224f53719d14f89aa = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e1\u003c/div\u003e"});
+            marker_d14458348094ff187c7227c2b7a48881.setIcon(div_icon_536053fb0a7a1cb224f53719d14f89aa);
+        
+    
+        var popup_9570a009725ef6a14d623eb55097e52c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9490c936656d606cae7733332cc0f8c = $(`<div id="html_f9490c936656d606cae7733332cc0f8c" style="width: 100.0%; height: 100.0%;">Callsign NATO12Air Mission ID 1759676714 Type ROUTE_SEGMENT LAT 40.7522683704 LON 8.3252065352</div>`)[0];
+                popup_9570a009725ef6a14d623eb55097e52c.setContent(html_f9490c936656d606cae7733332cc0f8c);
+            
+        
+
+        marker_d14458348094ff187c7227c2b7a48881.bindPopup(popup_9570a009725ef6a14d623eb55097e52c)
+        ;
+
+        
+    
+    
+            var circle_marker_8bbbc1281b97943b6a02045141be2d2a = L.circleMarker(
+                [40.7522683704, 8.3252065352],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var marker_90cee6369a252527cc79b2ce2cc28bd0 = L.marker(
+                [41.0968858898, 8.3818835508],
+                {}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var div_icon_57b58c341323ad6063b9407d98682023 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e2\u003c/div\u003e"});
+            marker_90cee6369a252527cc79b2ce2cc28bd0.setIcon(div_icon_57b58c341323ad6063b9407d98682023);
+        
+    
+        var popup_b1a6c9d7925b10826e03de9fdfb4b0a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5da5cfc9ca0fb9ad504895c9d07fc513 = $(`<div id="html_5da5cfc9ca0fb9ad504895c9d07fc513" style="width: 100.0%; height: 100.0%;">Callsign NATO12Air Mission ID 1759676714 Type ROUTE_SEGMENT LAT 41.0968858898 LON 8.3818835508</div>`)[0];
+                popup_b1a6c9d7925b10826e03de9fdfb4b0a0.setContent(html_5da5cfc9ca0fb9ad504895c9d07fc513);
+            
+        
+
+        marker_90cee6369a252527cc79b2ce2cc28bd0.bindPopup(popup_b1a6c9d7925b10826e03de9fdfb4b0a0)
+        ;
+
+        
+    
+    
+            var circle_marker_c0e856b79d6b3be02d59a1601b8f558c = L.circleMarker(
+                [41.0968858898, 8.3818835508],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var marker_5c67dbf6f3d4f1081bec5d826f44fdfc = L.marker(
+                [40.3735099152, 11.2482784801],
+                {}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var div_icon_082cafe4acd4ee68878eb329028d9b97 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e3\u003c/div\u003e"});
+            marker_5c67dbf6f3d4f1081bec5d826f44fdfc.setIcon(div_icon_082cafe4acd4ee68878eb329028d9b97);
+        
+    
+        var popup_b46bee7c3eb667c1b889c0ffe937c56a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_051c2ed00000b151cad8b963a644258d = $(`<div id="html_051c2ed00000b151cad8b963a644258d" style="width: 100.0%; height: 100.0%;">Callsign NATO12Air Mission ID 1759676714 Type ROUTE_AREA LAT 40.3735099152 LON 11.2482784801</div>`)[0];
+                popup_b46bee7c3eb667c1b889c0ffe937c56a.setContent(html_051c2ed00000b151cad8b963a644258d);
+            
+        
+
+        marker_5c67dbf6f3d4f1081bec5d826f44fdfc.bindPopup(popup_b46bee7c3eb667c1b889c0ffe937c56a)
+        ;
+
+        
+    
+    
+            var circle_marker_0e5e7c68ce7172cebea1aeec96e6cc56 = L.circleMarker(
+                [40.3735099152, 11.2482784801],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var marker_03f93b72d5697689fba385d073047b31 = L.marker(
+                [41.0968858898, 8.3818835508],
+                {}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var div_icon_34c789ac975179777b92a2bd46d78709 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e4\u003c/div\u003e"});
+            marker_03f93b72d5697689fba385d073047b31.setIcon(div_icon_34c789ac975179777b92a2bd46d78709);
+        
+    
+        var popup_f3fde6c46fbe87e2dd4099a4b535fcfe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cb518af10a08a98782c3ab9eb837c29 = $(`<div id="html_6cb518af10a08a98782c3ab9eb837c29" style="width: 100.0%; height: 100.0%;">Callsign NATO12Air Mission ID 1759676714 Type ROUTE_SEGMENT LAT 41.0968858898 LON 8.3818835508</div>`)[0];
+                popup_f3fde6c46fbe87e2dd4099a4b535fcfe.setContent(html_6cb518af10a08a98782c3ab9eb837c29);
+            
+        
+
+        marker_03f93b72d5697689fba385d073047b31.bindPopup(popup_f3fde6c46fbe87e2dd4099a4b535fcfe)
+        ;
+
+        
+    
+    
+            var circle_marker_9f348514b5f1b3baf076e286f1547e14 = L.circleMarker(
+                [41.0968858898, 8.3818835508],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var marker_fa248d80ec2077aa10afa4418f4b0603 = L.marker(
+                [40.7522683704, 8.3252065352],
+                {}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var div_icon_1aa310893e73b55fe661d86ec6922bfb = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e5\u003c/div\u003e"});
+            marker_fa248d80ec2077aa10afa4418f4b0603.setIcon(div_icon_1aa310893e73b55fe661d86ec6922bfb);
+        
+    
+        var popup_20a1be0376b9c576df22c0c9ba52d9df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_992253b07f561e07f1ad4ebdd06f5f21 = $(`<div id="html_992253b07f561e07f1ad4ebdd06f5f21" style="width: 100.0%; height: 100.0%;">Callsign NATO12Air Mission ID 1759676714 Type ROUTE_SEGMENT LAT 40.7522683704 LON 8.3252065352</div>`)[0];
+                popup_20a1be0376b9c576df22c0c9ba52d9df.setContent(html_992253b07f561e07f1ad4ebdd06f5f21);
+            
+        
+
+        marker_fa248d80ec2077aa10afa4418f4b0603.bindPopup(popup_20a1be0376b9c576df22c0c9ba52d9df)
+        ;
+
+        
+    
+    
+            var circle_marker_36f7927096c842ab046a084dd7580a21 = L.circleMarker(
+                [40.7522683704, 8.3252065352],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var marker_18321ad072c8617ebdd6fc69759b2ba6 = L.marker(
+                [40.6311111111, 8.2886111111],
+                {}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var div_icon_2ee153f8e15f1478ffcb53b04fff1914 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e6\u003c/div\u003e"});
+            marker_18321ad072c8617ebdd6fc69759b2ba6.setIcon(div_icon_2ee153f8e15f1478ffcb53b04fff1914);
+        
+    
+        var popup_ab045286e657d7ef923495319c4dff64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6588200d3277fd5b8b2a8c22a88a7cff = $(`<div id="html_6588200d3277fd5b8b2a8c22a88a7cff" style="width: 100.0%; height: 100.0%;">Callsign NATO12Air Mission ID 1759676714 Type DESTINATION LAT 40.6311111111 LON 8.2886111111</div>`)[0];
+                popup_ab045286e657d7ef923495319c4dff64.setContent(html_6588200d3277fd5b8b2a8c22a88a7cff);
+            
+        
+
+        marker_18321ad072c8617ebdd6fc69759b2ba6.bindPopup(popup_ab045286e657d7ef923495319c4dff64)
+        ;
+
+        
+    
+    
+            var circle_marker_64b0bc463a3e6f6819ec313aa6a7c228 = L.circleMarker(
+                [40.6311111111, 8.2886111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            var poly_line_ccc11277d6d483de98754dfac71dcfb0 = L.polyline(
+                [[40.6311111111, 8.2886111111], [40.7522683704, 8.3252065352], [41.0968858898, 8.3818835508], [40.3735099152, 11.2482784801], [41.0968858898, 8.3818835508], [40.7522683704, 8.3252065352], [40.6311111111, 8.2886111111]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bcb32c8c29df3967b5dca8a0da915b54);
+        
+    
+            poly_line_ccc11277d6d483de98754dfac71dcfb0.bindTooltip(
+                `<div>
+                     From departure to arrival
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_504269f7a1d8f24fd20772b5b8c0931e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_504269f7a1d8f24fd20772b5b8c0931e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_504269f7a1d8f24fd20772b5b8c0931e = L.map(
+                "map_504269f7a1d8f24fd20772b5b8c0931e",
+                {
+                    center: [38.179722222, 13.1030555556],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_545c7a4f2857a7cde6411b5550d471fa = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_545c7a4f2857a7cde6411b5550d471fa.addTo(map_504269f7a1d8f24fd20772b5b8c0931e);
+        
+    
+            var marker_05002b956cb471cb3fad6b122ccdccb0 = L.marker(
+                [40.6311111111, 8.2886111111],
+                {}
+            ).addTo(map_504269f7a1d8f24fd20772b5b8c0931e);
+        
+    
+            var div_icon_8b7333ce6619b2becab38e1d8adfc128 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e0\u003c/div\u003e"});
+            marker_05002b956cb471cb3fad6b122ccdccb0.setIcon(div_icon_8b7333ce6619b2becab38e1d8adfc128);
+        
+    
+        var popup_f5c278ebca7960b3155ad70ab5e3cc7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_047318d815cf7d4d09f0da52ccc43247 = $(`<div id="html_047318d815cf7d4d09f0da52ccc43247" style="width: 100.0%; height: 100.0%;">Callsign MEDIC11Air Mission ID 1759677898 Type DEPARTURE LAT 40.6311111111 LON 8.2886111111</div>`)[0];
+                popup_f5c278ebca7960b3155ad70ab5e3cc7e.setContent(html_047318d815cf7d4d09f0da52ccc43247);
+            
+        
+
+        marker_05002b956cb471cb3fad6b122ccdccb0.bindPopup(popup_f5c278ebca7960b3155ad70ab5e3cc7e)
+        ;
+
+        
+    
+    
+            var marker_e93c001e0e8c49d9a77b22727bcf7e09 = L.marker(
+                [40.4876608377, 8.2500977038],
+                {}
+            ).addTo(map_504269f7a1d8f24fd20772b5b8c0931e);
+        
+    
+            var div_icon_100b2c85a43f760db4eda15392fe9ce3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e1\u003c/div\u003e"});
+            marker_e93c001e0e8c49d9a77b22727bcf7e09.setIcon(div_icon_100b2c85a43f760db4eda15392fe9ce3);
+        
+    
+        var popup_c0899397c2e4076e7a62f02c24f3eddf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8addb59272730f8e15ce4ef5ae4a6ec = $(`<div id="html_d8addb59272730f8e15ce4ef5ae4a6ec" style="width: 100.0%; height: 100.0%;">Callsign MEDIC11Air Mission ID 1759677898 Type INGRESS_FLOT_CROSSING LAT 40.4876608377 LON 8.2500977038</div>`)[0];
+                popup_c0899397c2e4076e7a62f02c24f3eddf.setContent(html_d8addb59272730f8e15ce4ef5ae4a6ec);
+            
+        
+
+        marker_e93c001e0e8c49d9a77b22727bcf7e09.bindPopup(popup_c0899397c2e4076e7a62f02c24f3eddf)
+        ;
+
+        
+    
+    
+            var marker_e94f858aeab74ffc80ed34ab549cc26f = L.marker(
+                [39.2472222222, 9.0561111111],
+                {}
+            ).addTo(map_504269f7a1d8f24fd20772b5b8c0931e);
+        
+    
+            var div_icon_e0048dd1058bd453dcac0efa547facc9 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e2\u003c/div\u003e"});
+            marker_e94f858aeab74ffc80ed34ab549cc26f.setIcon(div_icon_e0048dd1058bd453dcac0efa547facc9);
+        
+    
+        var popup_682eec9baf363e04ebff75ca80178e72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18875e72320433d77ac8fac5b6516438 = $(`<div id="html_18875e72320433d77ac8fac5b6516438" style="width: 100.0%; height: 100.0%;">Callsign MEDIC11Air Mission ID 1759677898 Type AIR_MOVEMENT_POINT LAT 39.2472222222 LON 9.0561111111</div>`)[0];
+                popup_682eec9baf363e04ebff75ca80178e72.setContent(html_18875e72320433d77ac8fac5b6516438);
+            
+        
+
+        marker_e94f858aeab74ffc80ed34ab549cc26f.bindPopup(popup_682eec9baf363e04ebff75ca80178e72)
+        ;
+
+        
+    
+    
+            var marker_400c4ffa6acf96aba5a3c5031980eb08 = L.marker(
+                [40.4876608377, 8.2500977038],
+                {}
+            ).addTo(map_504269f7a1d8f24fd20772b5b8c0931e);
+        
+    
+            var div_icon_f169e551d2958192312c1c99626241a2 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e3\u003c/div\u003e"});
+            marker_400c4ffa6acf96aba5a3c5031980eb08.setIcon(div_icon_f169e551d2958192312c1c99626241a2);
+        
+    
+        var popup_82dfbe3a114f678f43d29c8f0bd95413 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11521ac7b1daf85244e7b6aacccfc73e = $(`<div id="html_11521ac7b1daf85244e7b6aacccfc73e" style="width: 100.0%; height: 100.0%;">Callsign MEDIC11Air Mission ID 1759677898 Type ROUTE_SEGMENT LAT 40.4876608377 LON 8.2500977038</div>`)[0];
+                popup_82dfbe3a114f678f43d29c8f0bd95413.setContent(html_11521ac7b1daf85244e7b6aacccfc73e);
+            
+        
+
+        marker_400c4ffa6acf96aba5a3c5031980eb08.bindPopup(popup_82dfbe3a114f678f43d29c8f0bd95413)
+        ;
+
+        
+    
+    
+            var marker_8274d6f19f914a01dade66bbed157f4c = L.marker(
+                [40.7522683704, 8.3252065352],
+                {}
+            ).addTo(map_504269f7a1d8f24fd20772b5b8c0931e);
+        
+    
+            var div_icon_88f2b322594026391634b9ac5b8f0eb8 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e4\u003c/div\u003e"});
+            marker_8274d6f19f914a01dade66bbed157f4c.setIcon(div_icon_88f2b322594026391634b9ac5b8f0eb8);
+        
+    
+        var popup_78783cd7daf09618fe8098052e27486b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c43682cff5b3ae6df5c43a52f364e89 = $(`<div id="html_6c43682cff5b3ae6df5c43a52f364e89" style="width: 100.0%; height: 100.0%;">Callsign MEDIC11Air Mission ID 1759677898 Type ROUTE_SEGMENT LAT 40.7522683704 LON 8.3252065352</div>`)[0];
+                popup_78783cd7daf09618fe8098052e27486b.setContent(html_6c43682cff5b3ae6df5c43a52f364e89);
+            
+        
+
+        marker_8274d6f19f914a01dade66bbed157f4c.bindPopup(popup_78783cd7daf09618fe8098052e27486b)
+        ;
+
+        
+    
+    
+            var marker_6dc6e1c0faf0adbe5a969b0fc444d5d9 = L.marker(
+                [41.0968858898, 8.3818835508],
+                {}
+            ).addTo(map_504269f7a1d8f24fd20772b5b8c0931e);
+        
+    
+            var div_icon_411280c8472b10b9f266b508786334a6 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e5\u003c/div\u003e"});
+            marker_6dc6e1c0faf0adbe5a969b0fc444d5d9.setIcon(div_icon_411280c8472b10b9f266b508786334a6);
+        
+    
+        var popup_5628b146031ecfc22752347dcebb5361 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6439280b05d1c6108ba874da67402991 = $(`<div id="html_6439280b05d1c6108ba874da67402991" style="width: 100.0%; height: 100.0%;">Callsign MEDIC11Air Mission ID 1759677898 Type ROUTE_SEGMENT LAT 41.0968858898 LON 8.3818835508</div>`)[0];
+                popup_5628b146031ecfc22752347dcebb5361.setContent(html_6439280b05d1c6108ba874da67402991);
+            
+        
+
+        marker_6dc6e1c0faf0adbe5a969b0fc444d5d9.bindPopup(popup_5628b146031ecfc22752347dcebb5361)
+        ;
+
+        
+    
+    
+            var marker_1a874eb2790981917d02af0341d2982f = L.marker(
+                [43.6827777778, 10.3955555556],
+                {}
+            ).addTo(map_504269f7a1d8f24fd20772b5b8c0931e);
+        
+    
+            var div_icon_ffbe530764cabb24299e0c608a234d19 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e6\u003c/div\u003e"});
+            marker_1a874eb2790981917d02af0341d2982f.setIcon(div_icon_ffbe530764cabb24299e0c608a234d19);
+        
+    
+        var popup_6e019132f843019bbd763b2af03db95a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f42f3a9f0264aba74f3421247c88572c = $(`<div id="html_f42f3a9f0264aba74f3421247c88572c" style="width: 100.0%; height: 100.0%;">Callsign MEDIC11Air Mission ID 1759677898 Type AIR_MOVEMENT_POINT LAT 43.6827777778 LON 10.3955555556</div>`)[0];
+                popup_6e019132f843019bbd763b2af03db95a.setContent(html_f42f3a9f0264aba74f3421247c88572c);
+            
+        
+
+        marker_1a874eb2790981917d02af0341d2982f.bindPopup(popup_6e019132f843019bbd763b2af03db95a)
+        ;
+
+        
+    
+    
+            var marker_ffe544ecfbdcf24f4107daf9f7aa79e6 = L.marker(
+                [41.0968858898, 8.3818835508],
+                {}
+            ).addTo(map_504269f7a1d8f24fd20772b5b8c0931e);
+        
+    
+            var div_icon_2fcc9191be37dc066bd1854fcb43f871 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e7\u003c/div\u003e"});
+            marker_ffe544ecfbdcf24f4107daf9f7aa79e6.setIcon(div_icon_2fcc9191be37dc066bd1854fcb43f871);
+        
+    
+        var popup_31df0537a7e8640089aa923fc6d90352 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34d7716c18d3a532d64746b0aa362551 = $(`<div id="html_34d7716c18d3a532d64746b0aa362551" style="width: 100.0%; height: 100.0%;">Callsign MEDIC11Air Mission ID 1759677898 Type ROUTE_SEGMENT LAT 41.0968858898 LON 8.3818835508</div>`)[0];
+                popup_31df0537a7e8640089aa923fc6d90352.setContent(html_34d7716c18d3a532d64746b0aa362551);
+            
+        
+
+        marker_ffe544ecfbdcf24f4107daf9f7aa79e6.bindPopup(popup_31df0537a7e8640089aa923fc6d90352)
+        ;
+
+        
+    
+    
+            var marker_2fdd6443ff29344a91824635df13d7ed = L.marker(
+                [40.6311111111, 8.2886111111],
+                {}
+            ).addTo(map_504269f7a1d8f24fd20772b5b8c0931e);
+        
+    
+            var div_icon_6e9194007a4a395858a09c71963954f9 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e8\u003c/div\u003e"});
+            marker_2fdd6443ff29344a91824635df13d7ed.setIcon(div_icon_6e9194007a4a395858a09c71963954f9);
+        
+    
+        var popup_8ec30611d1456ee54717422a4fea7d8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f48817899bf82fb7dfcba3b37a36ccd = $(`<div id="html_6f48817899bf82fb7dfcba3b37a36ccd" style="width: 100.0%; height: 100.0%;">Callsign MEDIC11Air Mission ID 1759677898 Type DESTINATION LAT 40.6311111111 LON 8.2886111111</div>`)[0];
+                popup_8ec30611d1456ee54717422a4fea7d8e.setContent(html_6f48817899bf82fb7dfcba3b37a36ccd);
+            
+        
+
+        marker_2fdd6443ff29344a91824635df13d7ed.bindPopup(popup_8ec30611d1456ee54717422a4fea7d8e)
+        ;
+
+        
+    
+    
+            var poly_line_d289b3ab544178c4bcd633ccebfab4cd = L.polyline(
+                [[40.6311111111, 8.2886111111], [40.4876608377, 8.2500977038], [39.2472222222, 9.0561111111], [40.4876608377, 8.2500977038], [40.7522683704, 8.3252065352], [41.0968858898, 8.3818835508], [43.6827777778, 10.3955555556], [41.0968858898, 8.3818835508], [40.6311111111, 8.2886111111]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_504269f7a1d8f24fd20772b5b8c0931e);
+        
+    
+            poly_line_d289b3ab544178c4bcd633ccebfab4cd.bindTooltip(
+                `<div>
+                     From departure to arrival
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

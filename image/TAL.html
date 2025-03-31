@@ -1,0 +1,2044 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7f3d014e336275bc414394f43ce50c24 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7f3d014e336275bc414394f43ce50c24" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7f3d014e336275bc414394f43ce50c24 = L.map(
+                "map_7f3d014e336275bc414394f43ce50c24",
+                {
+                    center: [38.179722222, 13.1030555556],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8a7fe0a3dd5762f1c4c9e995e9cf931f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_8a7fe0a3dd5762f1c4c9e995e9cf931f.addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_76011401c0796870992a5dd8871d0bea = L.marker(
+                [39.2472222222, 9.0561111111],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_deb2689cee5f85a519f00dbc10cae1f5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e0\u003c/div\u003e"});
+            marker_76011401c0796870992a5dd8871d0bea.setIcon(div_icon_deb2689cee5f85a519f00dbc10cae1f5);
+        
+    
+        var popup_14ca5bf0595921db5f513b829aa9cf89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf9732678996e9aaa76d473c58198ba6 = $(`<div id="html_cf9732678996e9aaa76d473c58198ba6" style="width: 100.0%; height: 100.0%;">Callsign CASEY42Air Mission ID 1759676953 Type DEPARTURELAT 39.2472222222 LON 9.0561111111</div>`)[0];
+                popup_14ca5bf0595921db5f513b829aa9cf89.setContent(html_cf9732678996e9aaa76d473c58198ba6);
+            
+        
+
+        marker_76011401c0796870992a5dd8871d0bea.bindPopup(popup_14ca5bf0595921db5f513b829aa9cf89)
+        ;
+
+        
+    
+    
+            var circle_marker_195bb8382f9001c6764690048b16aa9e = L.circleMarker(
+                [39.2472222222, 9.0561111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_d6827473dcfc0c6ba2f4bcd59243dafb = L.marker(
+                [40.4876608377, 8.2500977038],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_b0b967a3abbb0fbb190ad09bb152ed23 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e1\u003c/div\u003e"});
+            marker_d6827473dcfc0c6ba2f4bcd59243dafb.setIcon(div_icon_b0b967a3abbb0fbb190ad09bb152ed23);
+        
+    
+        var popup_6836c54481477f161990882800c6e810 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b23bbc02e2c94d3f042e1290039e3e14 = $(`<div id="html_b23bbc02e2c94d3f042e1290039e3e14" style="width: 100.0%; height: 100.0%;">Callsign CASEY42Air Mission ID 1759676953 Type ROUTE_SEGMENTLAT 40.4876608377 LON 8.2500977038</div>`)[0];
+                popup_6836c54481477f161990882800c6e810.setContent(html_b23bbc02e2c94d3f042e1290039e3e14);
+            
+        
+
+        marker_d6827473dcfc0c6ba2f4bcd59243dafb.bindPopup(popup_6836c54481477f161990882800c6e810)
+        ;
+
+        
+    
+    
+            var circle_marker_995b5465cafa137eea960c8c0aa7303a = L.circleMarker(
+                [40.4876608377, 8.2500977038],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_cd45ac3f91c10d9a60b940f8905cc5d2 = L.marker(
+                [40.6311111111, 8.2886111111],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_ed64c24e404cea88db1fba44c60fc5fa = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e2\u003c/div\u003e"});
+            marker_cd45ac3f91c10d9a60b940f8905cc5d2.setIcon(div_icon_ed64c24e404cea88db1fba44c60fc5fa);
+        
+    
+        var popup_26949b4d90a854ad0c60e0b026777466 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f979fbee6564f554f19d5647c7c0882f = $(`<div id="html_f979fbee6564f554f19d5647c7c0882f" style="width: 100.0%; height: 100.0%;">Callsign CASEY42Air Mission ID 1759676953 Type AIR_MOVEMENT_POINTLAT 40.6311111111 LON 8.2886111111</div>`)[0];
+                popup_26949b4d90a854ad0c60e0b026777466.setContent(html_f979fbee6564f554f19d5647c7c0882f);
+            
+        
+
+        marker_cd45ac3f91c10d9a60b940f8905cc5d2.bindPopup(popup_26949b4d90a854ad0c60e0b026777466)
+        ;
+
+        
+    
+    
+            var circle_marker_77f03e45509f44891409575f0c9785bf = L.circleMarker(
+                [40.6311111111, 8.2886111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_431959f90baf3f180743f618a13d2abd = L.marker(
+                [40.4876608377, 8.2500977038],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_29c65b1ba2356ac4414e1d5793ad9695 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e3\u003c/div\u003e"});
+            marker_431959f90baf3f180743f618a13d2abd.setIcon(div_icon_29c65b1ba2356ac4414e1d5793ad9695);
+        
+    
+        var popup_2c5a95cdce7cbb0ba20ab68171710324 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2209ab413b7a901647a74748c1920d3 = $(`<div id="html_e2209ab413b7a901647a74748c1920d3" style="width: 100.0%; height: 100.0%;">Callsign CASEY42Air Mission ID 1759676953 Type ROUTE_SEGMENTLAT 40.4876608377 LON 8.2500977038</div>`)[0];
+                popup_2c5a95cdce7cbb0ba20ab68171710324.setContent(html_e2209ab413b7a901647a74748c1920d3);
+            
+        
+
+        marker_431959f90baf3f180743f618a13d2abd.bindPopup(popup_2c5a95cdce7cbb0ba20ab68171710324)
+        ;
+
+        
+    
+    
+            var circle_marker_96ccee8821927ff67094c02a6071dd1e = L.circleMarker(
+                [40.4876608377, 8.2500977038],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_241f70181f02cb5ad9e35cbfc81f63b6 = L.marker(
+                [39.2472222222, 9.0561111111],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_0ed3959903cbfd21bd5b9277bb8bd36e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e4\u003c/div\u003e"});
+            marker_241f70181f02cb5ad9e35cbfc81f63b6.setIcon(div_icon_0ed3959903cbfd21bd5b9277bb8bd36e);
+        
+    
+        var popup_2de09b1a8c14db501f955f747cb64019 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce457c735dd9fe3e9559c68adda455d1 = $(`<div id="html_ce457c735dd9fe3e9559c68adda455d1" style="width: 100.0%; height: 100.0%;">Callsign CASEY42Air Mission ID 1759676953 Type DESTINATIONLAT 39.2472222222 LON 9.0561111111</div>`)[0];
+                popup_2de09b1a8c14db501f955f747cb64019.setContent(html_ce457c735dd9fe3e9559c68adda455d1);
+            
+        
+
+        marker_241f70181f02cb5ad9e35cbfc81f63b6.bindPopup(popup_2de09b1a8c14db501f955f747cb64019)
+        ;
+
+        
+    
+    
+            var circle_marker_f0fb15bfbde81f0018574ddc6d22b275 = L.circleMarker(
+                [39.2472222222, 9.0561111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var poly_line_4926984b914dc70daeff46585d79bd68 = L.polyline(
+                [[39.2472222222, 9.0561111111], [40.4876608377, 8.2500977038], [40.6311111111, 8.2886111111], [40.4876608377, 8.2500977038], [39.2472222222, 9.0561111111]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            poly_line_4926984b914dc70daeff46585d79bd68.bindTooltip(
+                `<div>
+                     From departure to arrival
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_181ed3a6914281d0bb83b838307288e4 = L.marker(
+                [39.2472222222, 9.0561111111],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_ab540a0dad8c7f042caa8cb42295a300 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e0\u003c/div\u003e"});
+            marker_181ed3a6914281d0bb83b838307288e4.setIcon(div_icon_ab540a0dad8c7f042caa8cb42295a300);
+        
+    
+        var popup_adb991253409ad88ba5f36512e4734c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_600ec4e262977ea02974f6afa1d4d3b9 = $(`<div id="html_600ec4e262977ea02974f6afa1d4d3b9" style="width: 100.0%; height: 100.0%;">Callsign CASEY43Air Mission ID 1759676982 Type DEPARTURELAT 39.2472222222 LON 9.0561111111</div>`)[0];
+                popup_adb991253409ad88ba5f36512e4734c0.setContent(html_600ec4e262977ea02974f6afa1d4d3b9);
+            
+        
+
+        marker_181ed3a6914281d0bb83b838307288e4.bindPopup(popup_adb991253409ad88ba5f36512e4734c0)
+        ;
+
+        
+    
+    
+            var circle_marker_1cab9095dc4e89d5bc3d6415123422bb = L.circleMarker(
+                [39.2472222222, 9.0561111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_4ddc269bbe9acae0e3d635d76440528a = L.marker(
+                [40.4876608377, 8.2500977038],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_ac89bcd485bc31ff19d756ff12d7f807 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e1\u003c/div\u003e"});
+            marker_4ddc269bbe9acae0e3d635d76440528a.setIcon(div_icon_ac89bcd485bc31ff19d756ff12d7f807);
+        
+    
+        var popup_95e64f4542ad6040bcd50ac88bca7faa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e88c7dce327104be50c500e34bb10dc2 = $(`<div id="html_e88c7dce327104be50c500e34bb10dc2" style="width: 100.0%; height: 100.0%;">Callsign CASEY43Air Mission ID 1759676982 Type ROUTE_SEGMENTLAT 40.4876608377 LON 8.2500977038</div>`)[0];
+                popup_95e64f4542ad6040bcd50ac88bca7faa.setContent(html_e88c7dce327104be50c500e34bb10dc2);
+            
+        
+
+        marker_4ddc269bbe9acae0e3d635d76440528a.bindPopup(popup_95e64f4542ad6040bcd50ac88bca7faa)
+        ;
+
+        
+    
+    
+            var circle_marker_00beff54d3d871ff49deab9038cb20d7 = L.circleMarker(
+                [40.4876608377, 8.2500977038],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_9c8574d513b2311fe8882872401f9d6d = L.marker(
+                [40.6311111111, 8.2886111111],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_d5602237abde00ff3bcb22ba9ac79206 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e2\u003c/div\u003e"});
+            marker_9c8574d513b2311fe8882872401f9d6d.setIcon(div_icon_d5602237abde00ff3bcb22ba9ac79206);
+        
+    
+        var popup_ef99c1f69f5527b813376c7a53587849 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83cf196373c4fd6853572e58ca4a25ee = $(`<div id="html_83cf196373c4fd6853572e58ca4a25ee" style="width: 100.0%; height: 100.0%;">Callsign CASEY43Air Mission ID 1759676982 Type AIR_MOVEMENT_POINTLAT 40.6311111111 LON 8.2886111111</div>`)[0];
+                popup_ef99c1f69f5527b813376c7a53587849.setContent(html_83cf196373c4fd6853572e58ca4a25ee);
+            
+        
+
+        marker_9c8574d513b2311fe8882872401f9d6d.bindPopup(popup_ef99c1f69f5527b813376c7a53587849)
+        ;
+
+        
+    
+    
+            var circle_marker_5517fb5a850dc223d6dc5fcb9c5af40e = L.circleMarker(
+                [40.6311111111, 8.2886111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_38e6bc95545f02b12276f5dcff3fadf1 = L.marker(
+                [40.4876608377, 8.2500977038],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_b6fa9479388f1b1fb3c3aa0f18d37838 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e3\u003c/div\u003e"});
+            marker_38e6bc95545f02b12276f5dcff3fadf1.setIcon(div_icon_b6fa9479388f1b1fb3c3aa0f18d37838);
+        
+    
+        var popup_3c3ec33a0d55eb3b46358fbc01e49a12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7949f6dcae9baa5fe083b2cb78822dd7 = $(`<div id="html_7949f6dcae9baa5fe083b2cb78822dd7" style="width: 100.0%; height: 100.0%;">Callsign CASEY43Air Mission ID 1759676982 Type ROUTE_SEGMENTLAT 40.4876608377 LON 8.2500977038</div>`)[0];
+                popup_3c3ec33a0d55eb3b46358fbc01e49a12.setContent(html_7949f6dcae9baa5fe083b2cb78822dd7);
+            
+        
+
+        marker_38e6bc95545f02b12276f5dcff3fadf1.bindPopup(popup_3c3ec33a0d55eb3b46358fbc01e49a12)
+        ;
+
+        
+    
+    
+            var circle_marker_2d477f3137d2b04b9e320ac00e5cb99f = L.circleMarker(
+                [40.4876608377, 8.2500977038],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_c1acdfd0413649fcc2c9808052311741 = L.marker(
+                [39.2472222222, 9.0561111111],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_ff45fa5ba9089328ecf78ea7c7a208fc = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e4\u003c/div\u003e"});
+            marker_c1acdfd0413649fcc2c9808052311741.setIcon(div_icon_ff45fa5ba9089328ecf78ea7c7a208fc);
+        
+    
+        var popup_6de4e43ea8e08c05720623c2a7e8d907 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd25add8d416761acebc6e263b26e0ca = $(`<div id="html_bd25add8d416761acebc6e263b26e0ca" style="width: 100.0%; height: 100.0%;">Callsign CASEY43Air Mission ID 1759676982 Type DESTINATIONLAT 39.2472222222 LON 9.0561111111</div>`)[0];
+                popup_6de4e43ea8e08c05720623c2a7e8d907.setContent(html_bd25add8d416761acebc6e263b26e0ca);
+            
+        
+
+        marker_c1acdfd0413649fcc2c9808052311741.bindPopup(popup_6de4e43ea8e08c05720623c2a7e8d907)
+        ;
+
+        
+    
+    
+            var circle_marker_affb1de16e0f9b5a2b10a68c41187cad = L.circleMarker(
+                [39.2472222222, 9.0561111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var poly_line_036fc0d621b79f654246fd4c03706b9c = L.polyline(
+                [[39.2472222222, 9.0561111111], [40.4876608377, 8.2500977038], [40.6311111111, 8.2886111111], [40.4876608377, 8.2500977038], [39.2472222222, 9.0561111111]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            poly_line_036fc0d621b79f654246fd4c03706b9c.bindTooltip(
+                `<div>
+                     From departure to arrival
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b98c273842c21b7ee848bc70245679e = L.marker(
+                [39.2472222222, 9.0561111111],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_2ee3049930264b7cc181938787203467 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e0\u003c/div\u003e"});
+            marker_1b98c273842c21b7ee848bc70245679e.setIcon(div_icon_2ee3049930264b7cc181938787203467);
+        
+    
+        var popup_2dbb64696d0297da6a67ccec3814c0aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1804af3895ffd9a82c01d9e7ebce0d2 = $(`<div id="html_f1804af3895ffd9a82c01d9e7ebce0d2" style="width: 100.0%; height: 100.0%;">Callsign CASEY40Air Mission ID 1759677011 Type DEPARTURELAT 39.2472222222 LON 9.0561111111</div>`)[0];
+                popup_2dbb64696d0297da6a67ccec3814c0aa.setContent(html_f1804af3895ffd9a82c01d9e7ebce0d2);
+            
+        
+
+        marker_1b98c273842c21b7ee848bc70245679e.bindPopup(popup_2dbb64696d0297da6a67ccec3814c0aa)
+        ;
+
+        
+    
+    
+            var circle_marker_d68d6685ffda14ce7313f92484762d49 = L.circleMarker(
+                [39.2472222222, 9.0561111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_ce935a69d585a6af32a38eb1f5c351da = L.marker(
+                [40.4876608377, 8.2500977038],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_f90b3080c4e6b1b7f2b17719b98b3b57 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e1\u003c/div\u003e"});
+            marker_ce935a69d585a6af32a38eb1f5c351da.setIcon(div_icon_f90b3080c4e6b1b7f2b17719b98b3b57);
+        
+    
+        var popup_2d2b27a7720acd5cb769a2cd34ba6840 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8738422d7e15360bb02a60e2ac2f2e6f = $(`<div id="html_8738422d7e15360bb02a60e2ac2f2e6f" style="width: 100.0%; height: 100.0%;">Callsign CASEY40Air Mission ID 1759677011 Type ROUTE_SEGMENTLAT 40.4876608377 LON 8.2500977038</div>`)[0];
+                popup_2d2b27a7720acd5cb769a2cd34ba6840.setContent(html_8738422d7e15360bb02a60e2ac2f2e6f);
+            
+        
+
+        marker_ce935a69d585a6af32a38eb1f5c351da.bindPopup(popup_2d2b27a7720acd5cb769a2cd34ba6840)
+        ;
+
+        
+    
+    
+            var circle_marker_d990ab05fa62460ab76bff1ee5218660 = L.circleMarker(
+                [40.4876608377, 8.2500977038],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_24da8f651c45563e7585d2df7dd1c073 = L.marker(
+                [40.6311111111, 8.2886111111],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_d6a5fea27ed75cc9a43d29512041c005 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e2\u003c/div\u003e"});
+            marker_24da8f651c45563e7585d2df7dd1c073.setIcon(div_icon_d6a5fea27ed75cc9a43d29512041c005);
+        
+    
+        var popup_e9a96eb7b5de9c9466261857cee1eca6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7397de23f31c245c557dc80960077301 = $(`<div id="html_7397de23f31c245c557dc80960077301" style="width: 100.0%; height: 100.0%;">Callsign CASEY40Air Mission ID 1759677011 Type AIR_MOVEMENT_POINTLAT 40.6311111111 LON 8.2886111111</div>`)[0];
+                popup_e9a96eb7b5de9c9466261857cee1eca6.setContent(html_7397de23f31c245c557dc80960077301);
+            
+        
+
+        marker_24da8f651c45563e7585d2df7dd1c073.bindPopup(popup_e9a96eb7b5de9c9466261857cee1eca6)
+        ;
+
+        
+    
+    
+            var circle_marker_5bb79cf4c9ac82a4c334eaf74c84009c = L.circleMarker(
+                [40.6311111111, 8.2886111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_5acf8e0554bc956c77111dcec5d658dc = L.marker(
+                [40.4876608377, 8.2500977038],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_af2c838fbc917e9cd9fed23a07f0907b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e3\u003c/div\u003e"});
+            marker_5acf8e0554bc956c77111dcec5d658dc.setIcon(div_icon_af2c838fbc917e9cd9fed23a07f0907b);
+        
+    
+        var popup_3b05b95f6a012076969e822993da1d54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41c2d4520bc6266234b812914e63dbfc = $(`<div id="html_41c2d4520bc6266234b812914e63dbfc" style="width: 100.0%; height: 100.0%;">Callsign CASEY40Air Mission ID 1759677011 Type ROUTE_SEGMENTLAT 40.4876608377 LON 8.2500977038</div>`)[0];
+                popup_3b05b95f6a012076969e822993da1d54.setContent(html_41c2d4520bc6266234b812914e63dbfc);
+            
+        
+
+        marker_5acf8e0554bc956c77111dcec5d658dc.bindPopup(popup_3b05b95f6a012076969e822993da1d54)
+        ;
+
+        
+    
+    
+            var circle_marker_72998f5a286739d13e02c085cf9b99f3 = L.circleMarker(
+                [40.4876608377, 8.2500977038],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_22fdbadb095e36c9679c8500b5467ebc = L.marker(
+                [39.2472222222, 9.0561111111],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_d737a58c32a080c87b0a844778659abb = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e4\u003c/div\u003e"});
+            marker_22fdbadb095e36c9679c8500b5467ebc.setIcon(div_icon_d737a58c32a080c87b0a844778659abb);
+        
+    
+        var popup_deaa7301fe2f289c9376639b873414a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed99d789ce84da521f6b4045eeb8e395 = $(`<div id="html_ed99d789ce84da521f6b4045eeb8e395" style="width: 100.0%; height: 100.0%;">Callsign CASEY40Air Mission ID 1759677011 Type DESTINATIONLAT 39.2472222222 LON 9.0561111111</div>`)[0];
+                popup_deaa7301fe2f289c9376639b873414a9.setContent(html_ed99d789ce84da521f6b4045eeb8e395);
+            
+        
+
+        marker_22fdbadb095e36c9679c8500b5467ebc.bindPopup(popup_deaa7301fe2f289c9376639b873414a9)
+        ;
+
+        
+    
+    
+            var circle_marker_ac2d6d0750a85c865f25d7b243789250 = L.circleMarker(
+                [39.2472222222, 9.0561111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var poly_line_f29a5149ce545c95eac9f0144dbfd13e = L.polyline(
+                [[39.2472222222, 9.0561111111], [40.4876608377, 8.2500977038], [40.6311111111, 8.2886111111], [40.4876608377, 8.2500977038], [39.2472222222, 9.0561111111]],
+                {"bubblingMouseEvents": true, "color": "lightgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            poly_line_f29a5149ce545c95eac9f0144dbfd13e.bindTooltip(
+                `<div>
+                     From departure to arrival
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9ab83d9c9be88a469c1abcd2ca4a76d = L.marker(
+                [39.2472222222, 9.0561111111],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_2a866808634f6b7db0d8784b345b9797 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e0\u003c/div\u003e"});
+            marker_e9ab83d9c9be88a469c1abcd2ca4a76d.setIcon(div_icon_2a866808634f6b7db0d8784b345b9797);
+        
+    
+        var popup_ad2fb04a9050dd74de1e966295a7f60f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f345443c0b548e5e2862d3a924a4c80 = $(`<div id="html_7f345443c0b548e5e2862d3a924a4c80" style="width: 100.0%; height: 100.0%;">Callsign CASEY41Air Mission ID 1759677040 Type DEPARTURELAT 39.2472222222 LON 9.0561111111</div>`)[0];
+                popup_ad2fb04a9050dd74de1e966295a7f60f.setContent(html_7f345443c0b548e5e2862d3a924a4c80);
+            
+        
+
+        marker_e9ab83d9c9be88a469c1abcd2ca4a76d.bindPopup(popup_ad2fb04a9050dd74de1e966295a7f60f)
+        ;
+
+        
+    
+    
+            var circle_marker_d5efebb3ce24bc5047f5efeba2f88871 = L.circleMarker(
+                [39.2472222222, 9.0561111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_64684bd1c27ce653252f0f4b5ecac7d7 = L.marker(
+                [40.4876608377, 8.2500977038],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_b9a1b059f582847b39eb036f7621b58e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e1\u003c/div\u003e"});
+            marker_64684bd1c27ce653252f0f4b5ecac7d7.setIcon(div_icon_b9a1b059f582847b39eb036f7621b58e);
+        
+    
+        var popup_c59bea1bcc2f846febd1fa111cf11559 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4af28f579e51f6c78ba09846206f0eae = $(`<div id="html_4af28f579e51f6c78ba09846206f0eae" style="width: 100.0%; height: 100.0%;">Callsign CASEY41Air Mission ID 1759677040 Type ROUTE_SEGMENTLAT 40.4876608377 LON 8.2500977038</div>`)[0];
+                popup_c59bea1bcc2f846febd1fa111cf11559.setContent(html_4af28f579e51f6c78ba09846206f0eae);
+            
+        
+
+        marker_64684bd1c27ce653252f0f4b5ecac7d7.bindPopup(popup_c59bea1bcc2f846febd1fa111cf11559)
+        ;
+
+        
+    
+    
+            var circle_marker_82ffdb0063ac79e42f16c9d793bb5038 = L.circleMarker(
+                [40.4876608377, 8.2500977038],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_df02c05ed81659ba956c352cb65493a2 = L.marker(
+                [40.6311111111, 8.2886111111],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_aab1da53f9240dd26afd02136cfe315e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e2\u003c/div\u003e"});
+            marker_df02c05ed81659ba956c352cb65493a2.setIcon(div_icon_aab1da53f9240dd26afd02136cfe315e);
+        
+    
+        var popup_7facca351f7e528b0b0d01279512b2eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09c9c4acf61c22880509ae821a1ca545 = $(`<div id="html_09c9c4acf61c22880509ae821a1ca545" style="width: 100.0%; height: 100.0%;">Callsign CASEY41Air Mission ID 1759677040 Type AIR_MOVEMENT_POINTLAT 40.6311111111 LON 8.2886111111</div>`)[0];
+                popup_7facca351f7e528b0b0d01279512b2eb.setContent(html_09c9c4acf61c22880509ae821a1ca545);
+            
+        
+
+        marker_df02c05ed81659ba956c352cb65493a2.bindPopup(popup_7facca351f7e528b0b0d01279512b2eb)
+        ;
+
+        
+    
+    
+            var circle_marker_f4cb5b0e90e38162fb17c007ff1cbdc2 = L.circleMarker(
+                [40.6311111111, 8.2886111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_a45d8c2d1b885a8455dddb4710ec3d10 = L.marker(
+                [40.4876608377, 8.2500977038],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_e081ecdd5f7250a0d8e5b8091bea7bc2 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e3\u003c/div\u003e"});
+            marker_a45d8c2d1b885a8455dddb4710ec3d10.setIcon(div_icon_e081ecdd5f7250a0d8e5b8091bea7bc2);
+        
+    
+        var popup_ac1258b708d09876b5cd3c493515b6b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_059cf975a770171da23ccb91fcbc5e9d = $(`<div id="html_059cf975a770171da23ccb91fcbc5e9d" style="width: 100.0%; height: 100.0%;">Callsign CASEY41Air Mission ID 1759677040 Type ROUTE_SEGMENTLAT 40.4876608377 LON 8.2500977038</div>`)[0];
+                popup_ac1258b708d09876b5cd3c493515b6b2.setContent(html_059cf975a770171da23ccb91fcbc5e9d);
+            
+        
+
+        marker_a45d8c2d1b885a8455dddb4710ec3d10.bindPopup(popup_ac1258b708d09876b5cd3c493515b6b2)
+        ;
+
+        
+    
+    
+            var circle_marker_5a1f6d0b192c04f3c2548d1d5ff9f7f8 = L.circleMarker(
+                [40.4876608377, 8.2500977038],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_13f81b74cdf8aaa7c4c7569514032bb6 = L.marker(
+                [39.2472222222, 9.0561111111],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_0ce3a0a0d58f3eb9257d4778acb64160 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e4\u003c/div\u003e"});
+            marker_13f81b74cdf8aaa7c4c7569514032bb6.setIcon(div_icon_0ce3a0a0d58f3eb9257d4778acb64160);
+        
+    
+        var popup_c9f718e29bcbf2789300e5e74a409efd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cb27230ebe02ade85e0039f3dccf922 = $(`<div id="html_0cb27230ebe02ade85e0039f3dccf922" style="width: 100.0%; height: 100.0%;">Callsign CASEY41Air Mission ID 1759677040 Type DESTINATIONLAT 39.2472222222 LON 9.0561111111</div>`)[0];
+                popup_c9f718e29bcbf2789300e5e74a409efd.setContent(html_0cb27230ebe02ade85e0039f3dccf922);
+            
+        
+
+        marker_13f81b74cdf8aaa7c4c7569514032bb6.bindPopup(popup_c9f718e29bcbf2789300e5e74a409efd)
+        ;
+
+        
+    
+    
+            var circle_marker_2b465ee9ac3618b7ffb9b70b7d043910 = L.circleMarker(
+                [39.2472222222, 9.0561111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var poly_line_ea9331c670e9a05335a6bd861adb9b02 = L.polyline(
+                [[39.2472222222, 9.0561111111], [40.4876608377, 8.2500977038], [40.6311111111, 8.2886111111], [40.4876608377, 8.2500977038], [39.2472222222, 9.0561111111]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            poly_line_ea9331c670e9a05335a6bd861adb9b02.bindTooltip(
+                `<div>
+                     From departure to arrival
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e10c0ec5f1a6d5b18dfea3b2e139a1e2 = L.marker(
+                [40.6311111111, 8.2886111111],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_61b0a1b8b878a393560611403b5c260d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e0\u003c/div\u003e"});
+            marker_e10c0ec5f1a6d5b18dfea3b2e139a1e2.setIcon(div_icon_61b0a1b8b878a393560611403b5c260d);
+        
+    
+        var popup_8f7652e39ae19a56ab38940b00608b44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5396aaf614f3da90d18c8497d6e9f96d = $(`<div id="html_5396aaf614f3da90d18c8497d6e9f96d" style="width: 100.0%; height: 100.0%;">Callsign VEGA23Air Mission ID 1759677944 Type DEPARTURELAT 40.6311111111 LON 8.2886111111</div>`)[0];
+                popup_8f7652e39ae19a56ab38940b00608b44.setContent(html_5396aaf614f3da90d18c8497d6e9f96d);
+            
+        
+
+        marker_e10c0ec5f1a6d5b18dfea3b2e139a1e2.bindPopup(popup_8f7652e39ae19a56ab38940b00608b44)
+        ;
+
+        
+    
+    
+            var circle_marker_3900c60fc488b3addb3d0e4492036666 = L.circleMarker(
+                [40.6311111111, 8.2886111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_66a6c5e6435c0ef968f97650e55774d6 = L.marker(
+                [40.7522683704, 8.3252065352],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_36776f656ae2c91cfa82e58de69fe578 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e1\u003c/div\u003e"});
+            marker_66a6c5e6435c0ef968f97650e55774d6.setIcon(div_icon_36776f656ae2c91cfa82e58de69fe578);
+        
+    
+        var popup_4e78e6ba413530aa2efe18ca5ec6d006 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_515275963f44ebb38ec36137ea2572a8 = $(`<div id="html_515275963f44ebb38ec36137ea2572a8" style="width: 100.0%; height: 100.0%;">Callsign VEGA23Air Mission ID 1759677944 Type ROUTE_SEGMENTLAT 40.7522683704 LON 8.3252065352</div>`)[0];
+                popup_4e78e6ba413530aa2efe18ca5ec6d006.setContent(html_515275963f44ebb38ec36137ea2572a8);
+            
+        
+
+        marker_66a6c5e6435c0ef968f97650e55774d6.bindPopup(popup_4e78e6ba413530aa2efe18ca5ec6d006)
+        ;
+
+        
+    
+    
+            var circle_marker_aa4a404650c5a79e00a63c10a30e6029 = L.circleMarker(
+                [40.7522683704, 8.3252065352],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_860a3b6269ca285d491c38fc6b3a6a92 = L.marker(
+                [41.0968858898, 8.3818835508],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_98a10d3f8a240d433fe2bb018a7c7b8b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e2\u003c/div\u003e"});
+            marker_860a3b6269ca285d491c38fc6b3a6a92.setIcon(div_icon_98a10d3f8a240d433fe2bb018a7c7b8b);
+        
+    
+        var popup_31e4af7a5465da986ac20b92d3695849 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bd23bd9840a69ca0aa25ef0b35a530d = $(`<div id="html_0bd23bd9840a69ca0aa25ef0b35a530d" style="width: 100.0%; height: 100.0%;">Callsign VEGA23Air Mission ID 1759677944 Type ROUTE_SEGMENTLAT 41.0968858898 LON 8.3818835508</div>`)[0];
+                popup_31e4af7a5465da986ac20b92d3695849.setContent(html_0bd23bd9840a69ca0aa25ef0b35a530d);
+            
+        
+
+        marker_860a3b6269ca285d491c38fc6b3a6a92.bindPopup(popup_31e4af7a5465da986ac20b92d3695849)
+        ;
+
+        
+    
+    
+            var circle_marker_338467bd2c772470123a5d92c862fd39 = L.circleMarker(
+                [41.0968858898, 8.3818835508],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_6fd8aaaf37a37c4aea889da21fa4d45e = L.marker(
+                [40.8986111111, 9.5177777778],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_623ad4df60781f187c43d92aef9f88a6 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e3\u003c/div\u003e"});
+            marker_6fd8aaaf37a37c4aea889da21fa4d45e.setIcon(div_icon_623ad4df60781f187c43d92aef9f88a6);
+        
+    
+        var popup_46d176cdaa38fbbbab625f6a3fd30612 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cebd5c3f527157021538a0843db6ba71 = $(`<div id="html_cebd5c3f527157021538a0843db6ba71" style="width: 100.0%; height: 100.0%;">Callsign VEGA23Air Mission ID 1759677944 Type AIR_MOVEMENT_POINTLAT 40.8986111111 LON 9.5177777778</div>`)[0];
+                popup_46d176cdaa38fbbbab625f6a3fd30612.setContent(html_cebd5c3f527157021538a0843db6ba71);
+            
+        
+
+        marker_6fd8aaaf37a37c4aea889da21fa4d45e.bindPopup(popup_46d176cdaa38fbbbab625f6a3fd30612)
+        ;
+
+        
+    
+    
+            var circle_marker_887aea95a970e3c9e0c065526887c790 = L.circleMarker(
+                [40.8986111111, 9.5177777778],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_ab3f97ec4fb3707a511e478bbb98c128 = L.marker(
+                [41.0968858898, 8.3818835508],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_858b9613a1f01179cbe039dc86d9f1a5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e4\u003c/div\u003e"});
+            marker_ab3f97ec4fb3707a511e478bbb98c128.setIcon(div_icon_858b9613a1f01179cbe039dc86d9f1a5);
+        
+    
+        var popup_3a65396c3d2cbd51db0a5050ee3f7a3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f40703d2b3984831dc36d32e76b6e549 = $(`<div id="html_f40703d2b3984831dc36d32e76b6e549" style="width: 100.0%; height: 100.0%;">Callsign VEGA23Air Mission ID 1759677944 Type ROUTE_SEGMENTLAT 41.0968858898 LON 8.3818835508</div>`)[0];
+                popup_3a65396c3d2cbd51db0a5050ee3f7a3c.setContent(html_f40703d2b3984831dc36d32e76b6e549);
+            
+        
+
+        marker_ab3f97ec4fb3707a511e478bbb98c128.bindPopup(popup_3a65396c3d2cbd51db0a5050ee3f7a3c)
+        ;
+
+        
+    
+    
+            var circle_marker_e3413b2b8800f305e81838c03c882b33 = L.circleMarker(
+                [41.0968858898, 8.3818835508],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_1e655b3687e04ca317022ab3c22bb7c3 = L.marker(
+                [41.0968858898, 8.3818835508],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_ae3d15680b385285e2d9756d2bb33159 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e5\u003c/div\u003e"});
+            marker_1e655b3687e04ca317022ab3c22bb7c3.setIcon(div_icon_ae3d15680b385285e2d9756d2bb33159);
+        
+    
+        var popup_b93a46314e6cb93ee1fabb286ce67289 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ca0a56df3d1230ae2cfb3905179de63 = $(`<div id="html_5ca0a56df3d1230ae2cfb3905179de63" style="width: 100.0%; height: 100.0%;">Callsign VEGA23Air Mission ID 1759677944 Type ROUTE_SEGMENTLAT 41.0968858898 LON 8.3818835508</div>`)[0];
+                popup_b93a46314e6cb93ee1fabb286ce67289.setContent(html_5ca0a56df3d1230ae2cfb3905179de63);
+            
+        
+
+        marker_1e655b3687e04ca317022ab3c22bb7c3.bindPopup(popup_b93a46314e6cb93ee1fabb286ce67289)
+        ;
+
+        
+    
+    
+            var circle_marker_0e5f4c6799f42531a06a154cb55a5cc0 = L.circleMarker(
+                [41.0968858898, 8.3818835508],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_b397909025b07a46610f96fc637a8fe9 = L.marker(
+                [43.6827777778, 10.3955555556],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_f7e6fba4660c7b7f61b9c04c26b58b05 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e6\u003c/div\u003e"});
+            marker_b397909025b07a46610f96fc637a8fe9.setIcon(div_icon_f7e6fba4660c7b7f61b9c04c26b58b05);
+        
+    
+        var popup_ffcaed378e48589a5d0638c975515342 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae47208589d02ba12123d7dc6455b086 = $(`<div id="html_ae47208589d02ba12123d7dc6455b086" style="width: 100.0%; height: 100.0%;">Callsign VEGA23Air Mission ID 1759677944 Type AIR_MOVEMENT_POINTLAT 43.6827777778 LON 10.3955555556</div>`)[0];
+                popup_ffcaed378e48589a5d0638c975515342.setContent(html_ae47208589d02ba12123d7dc6455b086);
+            
+        
+
+        marker_b397909025b07a46610f96fc637a8fe9.bindPopup(popup_ffcaed378e48589a5d0638c975515342)
+        ;
+
+        
+    
+    
+            var circle_marker_16e2b5ddf80cfa4efe7ca6ad151ff824 = L.circleMarker(
+                [43.6827777778, 10.3955555556],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_e71dc9146bc21f5903ed27928ef7a928 = L.marker(
+                [41.0968858898, 8.3818835508],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_6c8016b9055411e94b4c616e4720e55a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e7\u003c/div\u003e"});
+            marker_e71dc9146bc21f5903ed27928ef7a928.setIcon(div_icon_6c8016b9055411e94b4c616e4720e55a);
+        
+    
+        var popup_ae28110525ce244d8274a270677f6f98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb36807bcd1746dfc99061b3225f0c83 = $(`<div id="html_fb36807bcd1746dfc99061b3225f0c83" style="width: 100.0%; height: 100.0%;">Callsign VEGA23Air Mission ID 1759677944 Type ROUTE_SEGMENTLAT 41.0968858898 LON 8.3818835508</div>`)[0];
+                popup_ae28110525ce244d8274a270677f6f98.setContent(html_fb36807bcd1746dfc99061b3225f0c83);
+            
+        
+
+        marker_e71dc9146bc21f5903ed27928ef7a928.bindPopup(popup_ae28110525ce244d8274a270677f6f98)
+        ;
+
+        
+    
+    
+            var circle_marker_30d9903e704b86c4e1740ee4213cb476 = L.circleMarker(
+                [41.0968858898, 8.3818835508],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_1c7acdbf885b36b24e733e38ea4555bc = L.marker(
+                [40.7522683704, 8.3252065352],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_84915988b6d94df8fc76d9776f7e16a7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e8\u003c/div\u003e"});
+            marker_1c7acdbf885b36b24e733e38ea4555bc.setIcon(div_icon_84915988b6d94df8fc76d9776f7e16a7);
+        
+    
+        var popup_1843a987ab74696913fcfc435b323079 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf3d68343777c35cce00db72d7b78b4d = $(`<div id="html_bf3d68343777c35cce00db72d7b78b4d" style="width: 100.0%; height: 100.0%;">Callsign VEGA23Air Mission ID 1759677944 Type ROUTE_SEGMENTLAT 40.7522683704 LON 8.3252065352</div>`)[0];
+                popup_1843a987ab74696913fcfc435b323079.setContent(html_bf3d68343777c35cce00db72d7b78b4d);
+            
+        
+
+        marker_1c7acdbf885b36b24e733e38ea4555bc.bindPopup(popup_1843a987ab74696913fcfc435b323079)
+        ;
+
+        
+    
+    
+            var circle_marker_d2c101b0acbf55cde27c98190eacb0e7 = L.circleMarker(
+                [40.7522683704, 8.3252065352],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_5ab524a9556213d502b717e61f8a51d7 = L.marker(
+                [40.6311111111, 8.2886111111],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_158ae28b58365bae2526fd6d992e70c8 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e9\u003c/div\u003e"});
+            marker_5ab524a9556213d502b717e61f8a51d7.setIcon(div_icon_158ae28b58365bae2526fd6d992e70c8);
+        
+    
+        var popup_e4ef3ba0784b88d80576e9a90dd75a7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce3de77cc59f4d88bdfc7da4f13ddf79 = $(`<div id="html_ce3de77cc59f4d88bdfc7da4f13ddf79" style="width: 100.0%; height: 100.0%;">Callsign VEGA23Air Mission ID 1759677944 Type DESTINATIONLAT 40.6311111111 LON 8.2886111111</div>`)[0];
+                popup_e4ef3ba0784b88d80576e9a90dd75a7c.setContent(html_ce3de77cc59f4d88bdfc7da4f13ddf79);
+            
+        
+
+        marker_5ab524a9556213d502b717e61f8a51d7.bindPopup(popup_e4ef3ba0784b88d80576e9a90dd75a7c)
+        ;
+
+        
+    
+    
+            var circle_marker_9061a182b1dddefe48938e592c5d5f2f = L.circleMarker(
+                [40.6311111111, 8.2886111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var poly_line_d3ae53de7bd24c00e9265da9ca205827 = L.polyline(
+                [[40.6311111111, 8.2886111111], [40.7522683704, 8.3252065352], [41.0968858898, 8.3818835508], [40.8986111111, 9.5177777778], [41.0968858898, 8.3818835508], [41.0968858898, 8.3818835508], [43.6827777778, 10.3955555556], [41.0968858898, 8.3818835508], [40.7522683704, 8.3252065352], [40.6311111111, 8.2886111111]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            poly_line_d3ae53de7bd24c00e9265da9ca205827.bindTooltip(
+                `<div>
+                     From departure to arrival
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf51dddc8edc43f9dc19d886b7caea5f = L.marker(
+                [40.6311111111, 8.2886111111],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_a1ab34d76d9187deda2d9d417a6857b7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e0\u003c/div\u003e"});
+            marker_bf51dddc8edc43f9dc19d886b7caea5f.setIcon(div_icon_a1ab34d76d9187deda2d9d417a6857b7);
+        
+    
+        var popup_2715c50d7defe47461ce76a8fc117b77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_501635ec56c95be0c01febed53659f1d = $(`<div id="html_501635ec56c95be0c01febed53659f1d" style="width: 100.0%; height: 100.0%;">Callsign VEGA22Air Mission ID 1759677993 Type DEPARTURELAT 40.6311111111 LON 8.2886111111</div>`)[0];
+                popup_2715c50d7defe47461ce76a8fc117b77.setContent(html_501635ec56c95be0c01febed53659f1d);
+            
+        
+
+        marker_bf51dddc8edc43f9dc19d886b7caea5f.bindPopup(popup_2715c50d7defe47461ce76a8fc117b77)
+        ;
+
+        
+    
+    
+            var circle_marker_27e6ac8f502a73b09b50e28b1ab4e8f1 = L.circleMarker(
+                [40.6311111111, 8.2886111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_44d5bfaad4a6d962a2f56ba41d9de317 = L.marker(
+                [40.7522683704, 8.3252065352],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_203a54b243a52194184d84fbfc735f06 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e1\u003c/div\u003e"});
+            marker_44d5bfaad4a6d962a2f56ba41d9de317.setIcon(div_icon_203a54b243a52194184d84fbfc735f06);
+        
+    
+        var popup_4ea4443e67c72a3fcfe2c7fead8b5441 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b50b0ea35968fafa25e1c02d65d76ede = $(`<div id="html_b50b0ea35968fafa25e1c02d65d76ede" style="width: 100.0%; height: 100.0%;">Callsign VEGA22Air Mission ID 1759677993 Type ROUTE_SEGMENTLAT 40.7522683704 LON 8.3252065352</div>`)[0];
+                popup_4ea4443e67c72a3fcfe2c7fead8b5441.setContent(html_b50b0ea35968fafa25e1c02d65d76ede);
+            
+        
+
+        marker_44d5bfaad4a6d962a2f56ba41d9de317.bindPopup(popup_4ea4443e67c72a3fcfe2c7fead8b5441)
+        ;
+
+        
+    
+    
+            var circle_marker_937eb393fb7997365291255689d19f48 = L.circleMarker(
+                [40.7522683704, 8.3252065352],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_4579521ef9cbd6291b5edc7881a11587 = L.marker(
+                [41.0968858898, 8.3818835508],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_3996eb0be4c899abfc564807998a93a2 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e2\u003c/div\u003e"});
+            marker_4579521ef9cbd6291b5edc7881a11587.setIcon(div_icon_3996eb0be4c899abfc564807998a93a2);
+        
+    
+        var popup_5e9ba8eceb664c1cbb8fc73955c63e51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_739a59addbb311c111fb3d77b5939b88 = $(`<div id="html_739a59addbb311c111fb3d77b5939b88" style="width: 100.0%; height: 100.0%;">Callsign VEGA22Air Mission ID 1759677993 Type ROUTE_SEGMENTLAT 41.0968858898 LON 8.3818835508</div>`)[0];
+                popup_5e9ba8eceb664c1cbb8fc73955c63e51.setContent(html_739a59addbb311c111fb3d77b5939b88);
+            
+        
+
+        marker_4579521ef9cbd6291b5edc7881a11587.bindPopup(popup_5e9ba8eceb664c1cbb8fc73955c63e51)
+        ;
+
+        
+    
+    
+            var circle_marker_dc153e14bb3e1b419dc6d73e63586271 = L.circleMarker(
+                [41.0968858898, 8.3818835508],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_cb2ae2abb91b4b32fb9e90461fc70492 = L.marker(
+                [40.8986111111, 9.5177777778],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_c31963994f21c3529833cb3ebc01390d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e3\u003c/div\u003e"});
+            marker_cb2ae2abb91b4b32fb9e90461fc70492.setIcon(div_icon_c31963994f21c3529833cb3ebc01390d);
+        
+    
+        var popup_f1df74deb67a7616796dadad9df49cd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3c8af6f3d34d3dfaa147a2d158dc03c = $(`<div id="html_a3c8af6f3d34d3dfaa147a2d158dc03c" style="width: 100.0%; height: 100.0%;">Callsign VEGA22Air Mission ID 1759677993 Type AIR_MOVEMENT_POINTLAT 40.8986111111 LON 9.5177777778</div>`)[0];
+                popup_f1df74deb67a7616796dadad9df49cd5.setContent(html_a3c8af6f3d34d3dfaa147a2d158dc03c);
+            
+        
+
+        marker_cb2ae2abb91b4b32fb9e90461fc70492.bindPopup(popup_f1df74deb67a7616796dadad9df49cd5)
+        ;
+
+        
+    
+    
+            var circle_marker_01b0d9ddbb3968fecbe3fc74382bfabd = L.circleMarker(
+                [40.8986111111, 9.5177777778],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_6389390d873ca22c2d703d5c4b4282cc = L.marker(
+                [41.0968858898, 8.3818835508],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_d153b216c807695003e17f191d627baa = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e4\u003c/div\u003e"});
+            marker_6389390d873ca22c2d703d5c4b4282cc.setIcon(div_icon_d153b216c807695003e17f191d627baa);
+        
+    
+        var popup_56e5e940ca5c59aa4ef020a82b868f3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b29db2966d16df31cb7c67e6754d69b7 = $(`<div id="html_b29db2966d16df31cb7c67e6754d69b7" style="width: 100.0%; height: 100.0%;">Callsign VEGA22Air Mission ID 1759677993 Type ROUTE_SEGMENTLAT 41.0968858898 LON 8.3818835508</div>`)[0];
+                popup_56e5e940ca5c59aa4ef020a82b868f3e.setContent(html_b29db2966d16df31cb7c67e6754d69b7);
+            
+        
+
+        marker_6389390d873ca22c2d703d5c4b4282cc.bindPopup(popup_56e5e940ca5c59aa4ef020a82b868f3e)
+        ;
+
+        
+    
+    
+            var circle_marker_9f335b6e69775a392595eae712aabb84 = L.circleMarker(
+                [41.0968858898, 8.3818835508],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_7a060188d8ee36fdd7266dae898186e1 = L.marker(
+                [41.0968858898, 8.3818835508],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_c2e72bf3783d19aa65315ac160803fa9 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e5\u003c/div\u003e"});
+            marker_7a060188d8ee36fdd7266dae898186e1.setIcon(div_icon_c2e72bf3783d19aa65315ac160803fa9);
+        
+    
+        var popup_b3365f96b108404f3cc768b47815a4a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7695abdffbc22ebf89a86b19847e17db = $(`<div id="html_7695abdffbc22ebf89a86b19847e17db" style="width: 100.0%; height: 100.0%;">Callsign VEGA22Air Mission ID 1759677993 Type ROUTE_SEGMENTLAT 41.0968858898 LON 8.3818835508</div>`)[0];
+                popup_b3365f96b108404f3cc768b47815a4a5.setContent(html_7695abdffbc22ebf89a86b19847e17db);
+            
+        
+
+        marker_7a060188d8ee36fdd7266dae898186e1.bindPopup(popup_b3365f96b108404f3cc768b47815a4a5)
+        ;
+
+        
+    
+    
+            var circle_marker_890f982fd7a5e13461b7e64be2aae80f = L.circleMarker(
+                [41.0968858898, 8.3818835508],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_882739d213ff4a8c154be0389c47b188 = L.marker(
+                [43.6827777778, 10.3955555556],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_f36ceb22a8ad1cb0c99a9c32b991c2cb = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e6\u003c/div\u003e"});
+            marker_882739d213ff4a8c154be0389c47b188.setIcon(div_icon_f36ceb22a8ad1cb0c99a9c32b991c2cb);
+        
+    
+        var popup_28b19fdafc9cffe6987c17513189d86a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfc3986af0eacee7c700e7e003dd163f = $(`<div id="html_bfc3986af0eacee7c700e7e003dd163f" style="width: 100.0%; height: 100.0%;">Callsign VEGA22Air Mission ID 1759677993 Type AIR_MOVEMENT_POINTLAT 43.6827777778 LON 10.3955555556</div>`)[0];
+                popup_28b19fdafc9cffe6987c17513189d86a.setContent(html_bfc3986af0eacee7c700e7e003dd163f);
+            
+        
+
+        marker_882739d213ff4a8c154be0389c47b188.bindPopup(popup_28b19fdafc9cffe6987c17513189d86a)
+        ;
+
+        
+    
+    
+            var circle_marker_2bff550794d6d698a3e297dd9c37e5d8 = L.circleMarker(
+                [43.6827777778, 10.3955555556],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_64ec20c76527e91c242521d81e432fb2 = L.marker(
+                [41.0968858898, 8.3818835508],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_20dad7a73e6b5193469d951bf6116819 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e7\u003c/div\u003e"});
+            marker_64ec20c76527e91c242521d81e432fb2.setIcon(div_icon_20dad7a73e6b5193469d951bf6116819);
+        
+    
+        var popup_6af549335529ab56fce56a59256b6fe3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08a9f2d065aa021cd3836a82a5f9b669 = $(`<div id="html_08a9f2d065aa021cd3836a82a5f9b669" style="width: 100.0%; height: 100.0%;">Callsign VEGA22Air Mission ID 1759677993 Type ROUTE_SEGMENTLAT 41.0968858898 LON 8.3818835508</div>`)[0];
+                popup_6af549335529ab56fce56a59256b6fe3.setContent(html_08a9f2d065aa021cd3836a82a5f9b669);
+            
+        
+
+        marker_64ec20c76527e91c242521d81e432fb2.bindPopup(popup_6af549335529ab56fce56a59256b6fe3)
+        ;
+
+        
+    
+    
+            var circle_marker_2517033541f34aa729186f12ecc3384a = L.circleMarker(
+                [41.0968858898, 8.3818835508],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_d475d8188ded39a2ef1141428d6c5e99 = L.marker(
+                [40.7522683704, 8.3252065352],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_b61528b9af108e5f2160304529d9a0cd = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e8\u003c/div\u003e"});
+            marker_d475d8188ded39a2ef1141428d6c5e99.setIcon(div_icon_b61528b9af108e5f2160304529d9a0cd);
+        
+    
+        var popup_e682b44d2e669254280a00b951347e88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b1205de771e1922b553f7761fa36124 = $(`<div id="html_0b1205de771e1922b553f7761fa36124" style="width: 100.0%; height: 100.0%;">Callsign VEGA22Air Mission ID 1759677993 Type ROUTE_SEGMENTLAT 40.7522683704 LON 8.3252065352</div>`)[0];
+                popup_e682b44d2e669254280a00b951347e88.setContent(html_0b1205de771e1922b553f7761fa36124);
+            
+        
+
+        marker_d475d8188ded39a2ef1141428d6c5e99.bindPopup(popup_e682b44d2e669254280a00b951347e88)
+        ;
+
+        
+    
+    
+            var circle_marker_9404466a18806c59e9e3070204a68eb6 = L.circleMarker(
+                [40.7522683704, 8.3252065352],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_383ef53ad696c930a775db297b161a0a = L.marker(
+                [40.6311111111, 8.2886111111],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_805d5a60d0dadb38238105eae7d500f7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e9\u003c/div\u003e"});
+            marker_383ef53ad696c930a775db297b161a0a.setIcon(div_icon_805d5a60d0dadb38238105eae7d500f7);
+        
+    
+        var popup_844d1b40e51182ebf45df6b5fbfc431e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c446d4e54ed6c603eab21d861de7b7e = $(`<div id="html_6c446d4e54ed6c603eab21d861de7b7e" style="width: 100.0%; height: 100.0%;">Callsign VEGA22Air Mission ID 1759677993 Type DESTINATIONLAT 40.6311111111 LON 8.2886111111</div>`)[0];
+                popup_844d1b40e51182ebf45df6b5fbfc431e.setContent(html_6c446d4e54ed6c603eab21d861de7b7e);
+            
+        
+
+        marker_383ef53ad696c930a775db297b161a0a.bindPopup(popup_844d1b40e51182ebf45df6b5fbfc431e)
+        ;
+
+        
+    
+    
+            var circle_marker_3b27f1812bbaaa907d494f9e650b1f39 = L.circleMarker(
+                [40.6311111111, 8.2886111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var poly_line_b44e381e5a2837a12174035aff074b28 = L.polyline(
+                [[40.6311111111, 8.2886111111], [40.7522683704, 8.3252065352], [41.0968858898, 8.3818835508], [40.8986111111, 9.5177777778], [41.0968858898, 8.3818835508], [41.0968858898, 8.3818835508], [43.6827777778, 10.3955555556], [41.0968858898, 8.3818835508], [40.7522683704, 8.3252065352], [40.6311111111, 8.2886111111]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            poly_line_b44e381e5a2837a12174035aff074b28.bindTooltip(
+                `<div>
+                     From departure to arrival
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e308494d03e5763f3391aea858ec131 = L.marker(
+                [40.6311111111, 8.2886111111],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_34c29ad6f0b46de193239159fa3e3eb8 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e0\u003c/div\u003e"});
+            marker_8e308494d03e5763f3391aea858ec131.setIcon(div_icon_34c29ad6f0b46de193239159fa3e3eb8);
+        
+    
+        var popup_dedbb1aa07913e14f05f1bbe9698146e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_851bb6f2df078184de9a7b39b8843f07 = $(`<div id="html_851bb6f2df078184de9a7b39b8843f07" style="width: 100.0%; height: 100.0%;">Callsign VEGA21Air Mission ID 1759678042 Type DEPARTURELAT 40.6311111111 LON 8.2886111111</div>`)[0];
+                popup_dedbb1aa07913e14f05f1bbe9698146e.setContent(html_851bb6f2df078184de9a7b39b8843f07);
+            
+        
+
+        marker_8e308494d03e5763f3391aea858ec131.bindPopup(popup_dedbb1aa07913e14f05f1bbe9698146e)
+        ;
+
+        
+    
+    
+            var circle_marker_bad868037ead8239a732f8ed2e55129a = L.circleMarker(
+                [40.6311111111, 8.2886111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_a349811356cda12b17719ed0eb0b9139 = L.marker(
+                [40.7522683704, 8.3252065352],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_cb718b892668016f17199816023d3655 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e1\u003c/div\u003e"});
+            marker_a349811356cda12b17719ed0eb0b9139.setIcon(div_icon_cb718b892668016f17199816023d3655);
+        
+    
+        var popup_c020a758695532e2a974a32d09170c5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98fb520509a3d0e56a54f4f90a4b924b = $(`<div id="html_98fb520509a3d0e56a54f4f90a4b924b" style="width: 100.0%; height: 100.0%;">Callsign VEGA21Air Mission ID 1759678042 Type ROUTE_SEGMENTLAT 40.7522683704 LON 8.3252065352</div>`)[0];
+                popup_c020a758695532e2a974a32d09170c5f.setContent(html_98fb520509a3d0e56a54f4f90a4b924b);
+            
+        
+
+        marker_a349811356cda12b17719ed0eb0b9139.bindPopup(popup_c020a758695532e2a974a32d09170c5f)
+        ;
+
+        
+    
+    
+            var circle_marker_8dc7d76773da27f72c7f65081cca02b4 = L.circleMarker(
+                [40.7522683704, 8.3252065352],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_eae958c417ca0426f86b49840500601f = L.marker(
+                [41.0968858898, 8.3818835508],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_804f55fd9d4ab41c395aa2f489a789be = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e2\u003c/div\u003e"});
+            marker_eae958c417ca0426f86b49840500601f.setIcon(div_icon_804f55fd9d4ab41c395aa2f489a789be);
+        
+    
+        var popup_6395149f09e8ef1f86045877652423cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a75ad7f3876070918daaf227b9626ed0 = $(`<div id="html_a75ad7f3876070918daaf227b9626ed0" style="width: 100.0%; height: 100.0%;">Callsign VEGA21Air Mission ID 1759678042 Type ROUTE_SEGMENTLAT 41.0968858898 LON 8.3818835508</div>`)[0];
+                popup_6395149f09e8ef1f86045877652423cc.setContent(html_a75ad7f3876070918daaf227b9626ed0);
+            
+        
+
+        marker_eae958c417ca0426f86b49840500601f.bindPopup(popup_6395149f09e8ef1f86045877652423cc)
+        ;
+
+        
+    
+    
+            var circle_marker_c0b9fa432d5994dabab0a6171dc19605 = L.circleMarker(
+                [41.0968858898, 8.3818835508],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_d4625af51f1be0ecdcb101718749f142 = L.marker(
+                [40.8986111111, 9.5177777778],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_cf38c17b3bdcd2d370827a86476df28e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e3\u003c/div\u003e"});
+            marker_d4625af51f1be0ecdcb101718749f142.setIcon(div_icon_cf38c17b3bdcd2d370827a86476df28e);
+        
+    
+        var popup_0f16f70d21bb3eb319da52b0a4267f3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc3fc17d95e7ca365fd987f259f209a9 = $(`<div id="html_bc3fc17d95e7ca365fd987f259f209a9" style="width: 100.0%; height: 100.0%;">Callsign VEGA21Air Mission ID 1759678042 Type AIR_MOVEMENT_POINTLAT 40.8986111111 LON 9.5177777778</div>`)[0];
+                popup_0f16f70d21bb3eb319da52b0a4267f3c.setContent(html_bc3fc17d95e7ca365fd987f259f209a9);
+            
+        
+
+        marker_d4625af51f1be0ecdcb101718749f142.bindPopup(popup_0f16f70d21bb3eb319da52b0a4267f3c)
+        ;
+
+        
+    
+    
+            var circle_marker_73b347228feefbbea66b149006312fdb = L.circleMarker(
+                [40.8986111111, 9.5177777778],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_8cffde164258588ecfabb83fe0639f2f = L.marker(
+                [41.0968858898, 8.3818835508],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_816065bbfa5b93422dc1a5cc13a0dcf9 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e4\u003c/div\u003e"});
+            marker_8cffde164258588ecfabb83fe0639f2f.setIcon(div_icon_816065bbfa5b93422dc1a5cc13a0dcf9);
+        
+    
+        var popup_e1fe39293b552b4ccf63435046fd77dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_516190176c4b3a3ea467bc3b390626da = $(`<div id="html_516190176c4b3a3ea467bc3b390626da" style="width: 100.0%; height: 100.0%;">Callsign VEGA21Air Mission ID 1759678042 Type ROUTE_SEGMENTLAT 41.0968858898 LON 8.3818835508</div>`)[0];
+                popup_e1fe39293b552b4ccf63435046fd77dd.setContent(html_516190176c4b3a3ea467bc3b390626da);
+            
+        
+
+        marker_8cffde164258588ecfabb83fe0639f2f.bindPopup(popup_e1fe39293b552b4ccf63435046fd77dd)
+        ;
+
+        
+    
+    
+            var circle_marker_e990d43acc88d82cea0f1618e0c5a378 = L.circleMarker(
+                [41.0968858898, 8.3818835508],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_ec1171b2cde4c143e1452c6f71af1c8c = L.marker(
+                [41.0968858898, 8.3818835508],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_9d3e8b457d0f6053695e35ead4e064ff = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e5\u003c/div\u003e"});
+            marker_ec1171b2cde4c143e1452c6f71af1c8c.setIcon(div_icon_9d3e8b457d0f6053695e35ead4e064ff);
+        
+    
+        var popup_193d7f57dae810027df846cdeaabf155 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e3d64f6f2a5549d094515b674cfe5c7 = $(`<div id="html_7e3d64f6f2a5549d094515b674cfe5c7" style="width: 100.0%; height: 100.0%;">Callsign VEGA21Air Mission ID 1759678042 Type ROUTE_SEGMENTLAT 41.0968858898 LON 8.3818835508</div>`)[0];
+                popup_193d7f57dae810027df846cdeaabf155.setContent(html_7e3d64f6f2a5549d094515b674cfe5c7);
+            
+        
+
+        marker_ec1171b2cde4c143e1452c6f71af1c8c.bindPopup(popup_193d7f57dae810027df846cdeaabf155)
+        ;
+
+        
+    
+    
+            var circle_marker_e73c9cf5791b2b5d355835554e241136 = L.circleMarker(
+                [41.0968858898, 8.3818835508],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_9546e6d5e42aae1e7a9057cba8704e9f = L.marker(
+                [43.6827777778, 10.3955555556],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_8afd8d7acfcb23de7244cae0c07a43d4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e6\u003c/div\u003e"});
+            marker_9546e6d5e42aae1e7a9057cba8704e9f.setIcon(div_icon_8afd8d7acfcb23de7244cae0c07a43d4);
+        
+    
+        var popup_ded620b7d05125f99bdfd349bbf9d5f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_487dec6b86b03fde120876506a191c9c = $(`<div id="html_487dec6b86b03fde120876506a191c9c" style="width: 100.0%; height: 100.0%;">Callsign VEGA21Air Mission ID 1759678042 Type AIR_MOVEMENT_POINTLAT 43.6827777778 LON 10.3955555556</div>`)[0];
+                popup_ded620b7d05125f99bdfd349bbf9d5f9.setContent(html_487dec6b86b03fde120876506a191c9c);
+            
+        
+
+        marker_9546e6d5e42aae1e7a9057cba8704e9f.bindPopup(popup_ded620b7d05125f99bdfd349bbf9d5f9)
+        ;
+
+        
+    
+    
+            var circle_marker_9677a14c9c7764d6e57e1985d200398d = L.circleMarker(
+                [43.6827777778, 10.3955555556],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_6c631e12b416aa49fd103265e2b9a23b = L.marker(
+                [41.0968858898, 8.3818835508],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_b210bf63e76032aaa83e696de89c8bb5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e7\u003c/div\u003e"});
+            marker_6c631e12b416aa49fd103265e2b9a23b.setIcon(div_icon_b210bf63e76032aaa83e696de89c8bb5);
+        
+    
+        var popup_39b4656c3e28703a83b179372a07941f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5e775e4e2c6522147c77249e72692be = $(`<div id="html_c5e775e4e2c6522147c77249e72692be" style="width: 100.0%; height: 100.0%;">Callsign VEGA21Air Mission ID 1759678042 Type ROUTE_SEGMENTLAT 41.0968858898 LON 8.3818835508</div>`)[0];
+                popup_39b4656c3e28703a83b179372a07941f.setContent(html_c5e775e4e2c6522147c77249e72692be);
+            
+        
+
+        marker_6c631e12b416aa49fd103265e2b9a23b.bindPopup(popup_39b4656c3e28703a83b179372a07941f)
+        ;
+
+        
+    
+    
+            var circle_marker_cef721f1abbd6086abe59a860a1b0140 = L.circleMarker(
+                [41.0968858898, 8.3818835508],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_25a0b7121515d4a471acd7657007f91e = L.marker(
+                [40.7522683704, 8.3252065352],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_c1def7f21092721d08e92d7f1ef1974c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e8\u003c/div\u003e"});
+            marker_25a0b7121515d4a471acd7657007f91e.setIcon(div_icon_c1def7f21092721d08e92d7f1ef1974c);
+        
+    
+        var popup_730302f1246d39e7146264fa3d393262 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f84aef103de8ecd1642f0efba0920c03 = $(`<div id="html_f84aef103de8ecd1642f0efba0920c03" style="width: 100.0%; height: 100.0%;">Callsign VEGA21Air Mission ID 1759678042 Type ROUTE_SEGMENTLAT 40.7522683704 LON 8.3252065352</div>`)[0];
+                popup_730302f1246d39e7146264fa3d393262.setContent(html_f84aef103de8ecd1642f0efba0920c03);
+            
+        
+
+        marker_25a0b7121515d4a471acd7657007f91e.bindPopup(popup_730302f1246d39e7146264fa3d393262)
+        ;
+
+        
+    
+    
+            var circle_marker_716806bc367139ed5ea07e4106d3d5da = L.circleMarker(
+                [40.7522683704, 8.3252065352],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_c9b4efb1249b5100c1f4f38029a62f5c = L.marker(
+                [40.6311111111, 8.2886111111],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_e771bf2f535f5480002df2f6c801f355 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e9\u003c/div\u003e"});
+            marker_c9b4efb1249b5100c1f4f38029a62f5c.setIcon(div_icon_e771bf2f535f5480002df2f6c801f355);
+        
+    
+        var popup_d5a08016fff36c7434b9e6a8da91eb05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_643877f8d5f413b090b30f144a2132f4 = $(`<div id="html_643877f8d5f413b090b30f144a2132f4" style="width: 100.0%; height: 100.0%;">Callsign VEGA21Air Mission ID 1759678042 Type DESTINATIONLAT 40.6311111111 LON 8.2886111111</div>`)[0];
+                popup_d5a08016fff36c7434b9e6a8da91eb05.setContent(html_643877f8d5f413b090b30f144a2132f4);
+            
+        
+
+        marker_c9b4efb1249b5100c1f4f38029a62f5c.bindPopup(popup_d5a08016fff36c7434b9e6a8da91eb05)
+        ;
+
+        
+    
+    
+            var circle_marker_197a5a95ff72615c518ae88584fc91aa = L.circleMarker(
+                [40.6311111111, 8.2886111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var poly_line_d1dee460ce47d67bd75ff69f5ac2d839 = L.polyline(
+                [[40.6311111111, 8.2886111111], [40.7522683704, 8.3252065352], [41.0968858898, 8.3818835508], [40.8986111111, 9.5177777778], [41.0968858898, 8.3818835508], [41.0968858898, 8.3818835508], [43.6827777778, 10.3955555556], [41.0968858898, 8.3818835508], [40.7522683704, 8.3252065352], [40.6311111111, 8.2886111111]],
+                {"bubblingMouseEvents": true, "color": "lightred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            poly_line_d1dee460ce47d67bd75ff69f5ac2d839.bindTooltip(
+                `<div>
+                     From departure to arrival
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_337810f4621682a648746af17da17ab0 = L.marker(
+                [40.6311111111, 8.2886111111],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_216f55aa679bed5260777462ae2be554 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e0\u003c/div\u003e"});
+            marker_337810f4621682a648746af17da17ab0.setIcon(div_icon_216f55aa679bed5260777462ae2be554);
+        
+    
+        var popup_52c93d9d34f0d5fbcfc785fcc0845596 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_436077bce8d973b7b8e942b90a4bf268 = $(`<div id="html_436077bce8d973b7b8e942b90a4bf268" style="width: 100.0%; height: 100.0%;">Callsign VEGA20Air Mission ID 1759678091 Type DEPARTURELAT 40.6311111111 LON 8.2886111111</div>`)[0];
+                popup_52c93d9d34f0d5fbcfc785fcc0845596.setContent(html_436077bce8d973b7b8e942b90a4bf268);
+            
+        
+
+        marker_337810f4621682a648746af17da17ab0.bindPopup(popup_52c93d9d34f0d5fbcfc785fcc0845596)
+        ;
+
+        
+    
+    
+            var circle_marker_a78650505520a73f50beaeb2227ac332 = L.circleMarker(
+                [40.6311111111, 8.2886111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_ff1bfa9f595478a37a1f4cfec757a64a = L.marker(
+                [40.7522683704, 8.3252065352],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_be9763e6e5c62f5cab191918c0c19c96 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e1\u003c/div\u003e"});
+            marker_ff1bfa9f595478a37a1f4cfec757a64a.setIcon(div_icon_be9763e6e5c62f5cab191918c0c19c96);
+        
+    
+        var popup_4552c11d0cf734f060bb32ef084847a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e75165e0defb4e0f0c0522255285f710 = $(`<div id="html_e75165e0defb4e0f0c0522255285f710" style="width: 100.0%; height: 100.0%;">Callsign VEGA20Air Mission ID 1759678091 Type ROUTE_SEGMENTLAT 40.7522683704 LON 8.3252065352</div>`)[0];
+                popup_4552c11d0cf734f060bb32ef084847a7.setContent(html_e75165e0defb4e0f0c0522255285f710);
+            
+        
+
+        marker_ff1bfa9f595478a37a1f4cfec757a64a.bindPopup(popup_4552c11d0cf734f060bb32ef084847a7)
+        ;
+
+        
+    
+    
+            var circle_marker_22a9b8d468b489979aaca1c8b7088a3c = L.circleMarker(
+                [40.7522683704, 8.3252065352],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_753fc79e7e0e1e73215b25bb103a70b2 = L.marker(
+                [41.0968858898, 8.3818835508],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_96a721241516157cc2245e89e7afe7d1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e2\u003c/div\u003e"});
+            marker_753fc79e7e0e1e73215b25bb103a70b2.setIcon(div_icon_96a721241516157cc2245e89e7afe7d1);
+        
+    
+        var popup_e39c74dbb0284ccda9d375668b056567 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_573a13df1dfd801dd114061b080ce32a = $(`<div id="html_573a13df1dfd801dd114061b080ce32a" style="width: 100.0%; height: 100.0%;">Callsign VEGA20Air Mission ID 1759678091 Type ROUTE_SEGMENTLAT 41.0968858898 LON 8.3818835508</div>`)[0];
+                popup_e39c74dbb0284ccda9d375668b056567.setContent(html_573a13df1dfd801dd114061b080ce32a);
+            
+        
+
+        marker_753fc79e7e0e1e73215b25bb103a70b2.bindPopup(popup_e39c74dbb0284ccda9d375668b056567)
+        ;
+
+        
+    
+    
+            var circle_marker_dab7bb9036b41e74809d99e9f457c4f8 = L.circleMarker(
+                [41.0968858898, 8.3818835508],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_46531b3fd4349e052022cfe9073caa53 = L.marker(
+                [40.8986111111, 9.5177777778],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_4cf6d674d0fa0b1da6ecd1918aa18ad1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e3\u003c/div\u003e"});
+            marker_46531b3fd4349e052022cfe9073caa53.setIcon(div_icon_4cf6d674d0fa0b1da6ecd1918aa18ad1);
+        
+    
+        var popup_2d3253c895d55d3d0c6c0307d8a8dc49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f9c0916e7351f8502d76bc3ed662f25 = $(`<div id="html_1f9c0916e7351f8502d76bc3ed662f25" style="width: 100.0%; height: 100.0%;">Callsign VEGA20Air Mission ID 1759678091 Type AIR_MOVEMENT_POINTLAT 40.8986111111 LON 9.5177777778</div>`)[0];
+                popup_2d3253c895d55d3d0c6c0307d8a8dc49.setContent(html_1f9c0916e7351f8502d76bc3ed662f25);
+            
+        
+
+        marker_46531b3fd4349e052022cfe9073caa53.bindPopup(popup_2d3253c895d55d3d0c6c0307d8a8dc49)
+        ;
+
+        
+    
+    
+            var circle_marker_de06999b09a6c6ddaf0d2d97a1c95507 = L.circleMarker(
+                [40.8986111111, 9.5177777778],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_6355c99a86af7bc84f725cef5f3d0234 = L.marker(
+                [41.0968858898, 8.3818835508],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_51fd9dca7699d498a8c3aa85dd59e186 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e4\u003c/div\u003e"});
+            marker_6355c99a86af7bc84f725cef5f3d0234.setIcon(div_icon_51fd9dca7699d498a8c3aa85dd59e186);
+        
+    
+        var popup_509c41444249af5a4bcc46e227c5c658 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_796742bf35da0ce56fffbd6b3b46faf2 = $(`<div id="html_796742bf35da0ce56fffbd6b3b46faf2" style="width: 100.0%; height: 100.0%;">Callsign VEGA20Air Mission ID 1759678091 Type ROUTE_SEGMENTLAT 41.0968858898 LON 8.3818835508</div>`)[0];
+                popup_509c41444249af5a4bcc46e227c5c658.setContent(html_796742bf35da0ce56fffbd6b3b46faf2);
+            
+        
+
+        marker_6355c99a86af7bc84f725cef5f3d0234.bindPopup(popup_509c41444249af5a4bcc46e227c5c658)
+        ;
+
+        
+    
+    
+            var circle_marker_45cbcba909d526facec2cba5fe22e327 = L.circleMarker(
+                [41.0968858898, 8.3818835508],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_7933d68d2fd09d7839f59b1a8fd9263e = L.marker(
+                [41.0968858898, 8.3818835508],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_8626b181300ddeeec4111677aa137634 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e5\u003c/div\u003e"});
+            marker_7933d68d2fd09d7839f59b1a8fd9263e.setIcon(div_icon_8626b181300ddeeec4111677aa137634);
+        
+    
+        var popup_3b21d28e5528f11bbf20c3139dc84699 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_288851cd158da04893827bd7fb0288c0 = $(`<div id="html_288851cd158da04893827bd7fb0288c0" style="width: 100.0%; height: 100.0%;">Callsign VEGA20Air Mission ID 1759678091 Type ROUTE_SEGMENTLAT 41.0968858898 LON 8.3818835508</div>`)[0];
+                popup_3b21d28e5528f11bbf20c3139dc84699.setContent(html_288851cd158da04893827bd7fb0288c0);
+            
+        
+
+        marker_7933d68d2fd09d7839f59b1a8fd9263e.bindPopup(popup_3b21d28e5528f11bbf20c3139dc84699)
+        ;
+
+        
+    
+    
+            var circle_marker_b15aa135f03bb27431ea266f72deb34d = L.circleMarker(
+                [41.0968858898, 8.3818835508],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_be0918e74e5489f3a8fb667f067021ee = L.marker(
+                [43.6827777778, 10.3955555556],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_609f5318cd460bf7e71aed81ef80a627 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e6\u003c/div\u003e"});
+            marker_be0918e74e5489f3a8fb667f067021ee.setIcon(div_icon_609f5318cd460bf7e71aed81ef80a627);
+        
+    
+        var popup_7b3ded6750405f6f6df345f10920eeee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_771cca15b047f48e547b902dec8dff89 = $(`<div id="html_771cca15b047f48e547b902dec8dff89" style="width: 100.0%; height: 100.0%;">Callsign VEGA20Air Mission ID 1759678091 Type AIR_MOVEMENT_POINTLAT 43.6827777778 LON 10.3955555556</div>`)[0];
+                popup_7b3ded6750405f6f6df345f10920eeee.setContent(html_771cca15b047f48e547b902dec8dff89);
+            
+        
+
+        marker_be0918e74e5489f3a8fb667f067021ee.bindPopup(popup_7b3ded6750405f6f6df345f10920eeee)
+        ;
+
+        
+    
+    
+            var circle_marker_c9a904896d14a4328d9caa1385a36747 = L.circleMarker(
+                [43.6827777778, 10.3955555556],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_f23b747781482e35801c4c223da0fd92 = L.marker(
+                [41.0968858898, 8.3818835508],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_b9209be702c7bbc7b008dc7b88492fd1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e7\u003c/div\u003e"});
+            marker_f23b747781482e35801c4c223da0fd92.setIcon(div_icon_b9209be702c7bbc7b008dc7b88492fd1);
+        
+    
+        var popup_2aa81e3a115919fc040db855f341e0b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e88ccfd49d1eb857e3258831f8c237ba = $(`<div id="html_e88ccfd49d1eb857e3258831f8c237ba" style="width: 100.0%; height: 100.0%;">Callsign VEGA20Air Mission ID 1759678091 Type ROUTE_SEGMENTLAT 41.0968858898 LON 8.3818835508</div>`)[0];
+                popup_2aa81e3a115919fc040db855f341e0b1.setContent(html_e88ccfd49d1eb857e3258831f8c237ba);
+            
+        
+
+        marker_f23b747781482e35801c4c223da0fd92.bindPopup(popup_2aa81e3a115919fc040db855f341e0b1)
+        ;
+
+        
+    
+    
+            var circle_marker_7f0f3eb0cb4ee4a522272985479bcb35 = L.circleMarker(
+                [41.0968858898, 8.3818835508],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_75733b47af35ff68ef0a75630abbdf3b = L.marker(
+                [40.7522683704, 8.3252065352],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_a43cffa0e63e72d5e3f92228499b6efc = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e8\u003c/div\u003e"});
+            marker_75733b47af35ff68ef0a75630abbdf3b.setIcon(div_icon_a43cffa0e63e72d5e3f92228499b6efc);
+        
+    
+        var popup_4f9af43540c080f73693114c5c883cf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b43523a43328c2e813d7b2f50c26a2f = $(`<div id="html_9b43523a43328c2e813d7b2f50c26a2f" style="width: 100.0%; height: 100.0%;">Callsign VEGA20Air Mission ID 1759678091 Type ROUTE_SEGMENTLAT 40.7522683704 LON 8.3252065352</div>`)[0];
+                popup_4f9af43540c080f73693114c5c883cf5.setContent(html_9b43523a43328c2e813d7b2f50c26a2f);
+            
+        
+
+        marker_75733b47af35ff68ef0a75630abbdf3b.bindPopup(popup_4f9af43540c080f73693114c5c883cf5)
+        ;
+
+        
+    
+    
+            var circle_marker_24fc22766fcb68cb275c5363888a1456 = L.circleMarker(
+                [40.7522683704, 8.3252065352],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var marker_bfe49efebf2bb242e0b6039e1045e999 = L.marker(
+                [40.6311111111, 8.2886111111],
+                {}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var div_icon_2310c7977fcfcc0db921a0eeff1c42bd = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt;font-family: courier new; color: black\"\u003e9\u003c/div\u003e"});
+            marker_bfe49efebf2bb242e0b6039e1045e999.setIcon(div_icon_2310c7977fcfcc0db921a0eeff1c42bd);
+        
+    
+        var popup_f853549be9b02458b239b31095dd4156 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_476dd590a95361cdb362be3df1617381 = $(`<div id="html_476dd590a95361cdb362be3df1617381" style="width: 100.0%; height: 100.0%;">Callsign VEGA20Air Mission ID 1759678091 Type DESTINATIONLAT 40.6311111111 LON 8.2886111111</div>`)[0];
+                popup_f853549be9b02458b239b31095dd4156.setContent(html_476dd590a95361cdb362be3df1617381);
+            
+        
+
+        marker_bfe49efebf2bb242e0b6039e1045e999.bindPopup(popup_f853549be9b02458b239b31095dd4156)
+        ;
+
+        
+    
+    
+            var circle_marker_683e16872f6f599d11203c1f43ff6009 = L.circleMarker(
+                [40.6311111111, 8.2886111111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            var poly_line_6433970325e234be073876db5ddef091 = L.polyline(
+                [[40.6311111111, 8.2886111111], [40.7522683704, 8.3252065352], [41.0968858898, 8.3818835508], [40.8986111111, 9.5177777778], [41.0968858898, 8.3818835508], [41.0968858898, 8.3818835508], [43.6827777778, 10.3955555556], [41.0968858898, 8.3818835508], [40.7522683704, 8.3252065352], [40.6311111111, 8.2886111111]],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7f3d014e336275bc414394f43ce50c24);
+        
+    
+            poly_line_6433970325e234be073876db5ddef091.bindTooltip(
+                `<div>
+                     From departure to arrival
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
